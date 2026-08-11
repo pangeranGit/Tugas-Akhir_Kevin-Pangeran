@@ -1,0 +1,3 @@
+2026-07-23 11:56:39,474 [INFO] Loaded 47 alert dari c2_alerts_enriched_abuseipdb.json
+2026-07-23 11:56:39,477 [INFO] Output disimpan ke: /home/kali/ta-pipeline/output/c2_alerts_enriched_mitre.json
+2026-07-23 11:56:39,478 [INFO] Summary disimpan ke: /home/kali/ta-pipeline/output/module3_summary.json

@@ -1,0 +1,14 @@
+{
+  "total": 47,
+  "success": 47,
+  "avg_d1": 3.0,
+  "avg_d2": 3.0,
+  "avg_d3": 3.0,
+  "avg_m13": 3.0,
+  "llm_latency": {
+    "mean_seconds": 4.173,
+    "min_seconds": 3.136,
+    "max_seconds": 6.031,
+    "note": "Latency panggilan Gemini murni, tidak termasuk jeda 3 detik antar request."
+  }
+}

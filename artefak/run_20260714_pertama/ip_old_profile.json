@@ -1,0 +1,1146 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-28T20:32:49.837533",
+    "total_ips": 26,
+    "in_ground_truth": 19,
+    "not_in_ground_truth": 7,
+    "malware_family_distribution": {
+      "PoisonIvy": 1,
+      "Emotet": 15,
+      "Geodo": 15,
+      "Bladabindi": 1,
+      "njrat": 1,
+      "Ramnit": 2
+    }
+  },
+  "ip_profiles": [
+    {
+      "old_ip": "103.249.87.72",
+      "malware_families": [
+        "PoisonIvy"
+      ],
+      "signatures": [
+        "ET RETIRED PoisonIvy HTTP CnC Beacon"
+      ],
+      "signature_ids": [
+        "2021523"
+      ],
+      "categories": [
+        "Malware Command and Control Activity Detected"
+      ],
+      "tactic_ids": [],
+      "technique_ids": [],
+      "old_abuseipdb": {
+        "score": 0,
+        "total_reports": 0,
+        "country_code": "MY",
+        "country_name": "Malaysia",
+        "isp": "Hosting Services",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "domain": "invision7.com"
+      },
+      "alert_count": 1,
+      "ground_truth": {
+        "in_gt": true,
+        "label": "malicious",
+        "capture_type": "APT"
+      },
+      "search_hint": {
+        "primary_malware": "PoisonIvy",
+        "search_keywords": [
+          "poisonivy",
+          "c2",
+          "command and control",
+          "botnet"
+        ],
+        "preferred_usage_type": "Data Center/Web Hosting/Transit"
+      }
+    },
+    {
+      "old_ip": "103.4.18.170",
+      "malware_families": [
+        "Emotet",
+        "Geodo"
+      ],
+      "signatures": [
+        "ET MALWARE W32.Geodo/Emotet Checkin",
+        "ET MALWARE W32/Emotet CnC Beacon 1"
+      ],
+      "signature_ids": [
+        "2024272",
+        "2024274"
+      ],
+      "categories": [
+        "Malware Command and Control Activity Detected"
+      ],
+      "tactic_ids": [],
+      "technique_ids": [],
+      "old_abuseipdb": {
+        "score": 0,
+        "total_reports": 0,
+        "country_code": "AU",
+        "country_name": "Australia",
+        "isp": "Fluccs Australia",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "domain": "fluccs.com.au"
+      },
+      "alert_count": 2,
+      "ground_truth": {
+        "in_gt": true,
+        "label": "malicious",
+        "capture_type": "botnet"
+      },
+      "search_hint": {
+        "primary_malware": "Emotet",
+        "search_keywords": [
+          "emotet",
+          "c2",
+          "command and control",
+          "botnet"
+        ],
+        "preferred_usage_type": "Data Center/Web Hosting/Transit"
+      }
+    },
+    {
+      "old_ip": "109.169.66.107",
+      "malware_families": [
+        "Emotet",
+        "Geodo"
+      ],
+      "signatures": [
+        "ET MALWARE W32.Geodo/Emotet Checkin",
+        "ET MALWARE W32/Emotet CnC Beacon 1"
+      ],
+      "signature_ids": [
+        "2024272",
+        "2024274"
+      ],
+      "categories": [
+        "Malware Command and Control Activity Detected"
+      ],
+      "tactic_ids": [],
+      "technique_ids": [],
+      "old_abuseipdb": {
+        "score": 0,
+        "total_reports": 0,
+        "country_code": "GB",
+        "country_name": "United Kingdom of Great Britain and Northern Ireland",
+        "isp": "Rapidswitch",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "domain": "rapidswitch.com"
+      },
+      "alert_count": 2,
+      "ground_truth": {
+        "in_gt": true,
+        "label": "malicious",
+        "capture_type": "botnet"
+      },
+      "search_hint": {
+        "primary_malware": "Emotet",
+        "search_keywords": [
+          "emotet",
+          "c2",
+          "command and control",
+          "botnet"
+        ],
+        "preferred_usage_type": "Data Center/Web Hosting/Transit"
+      }
+    },
+    {
+      "old_ip": "139.59.33.202",
+      "malware_families": [
+        "Emotet",
+        "Geodo"
+      ],
+      "signatures": [
+        "ET MALWARE W32.Geodo/Emotet Checkin",
+        "ET MALWARE W32/Emotet CnC Beacon 1"
+      ],
+      "signature_ids": [
+        "2024272",
+        "2024274"
+      ],
+      "categories": [
+        "Malware Command and Control Activity Detected"
+      ],
+      "tactic_ids": [],
+      "technique_ids": [],
+      "old_abuseipdb": {
+        "score": 0,
+        "total_reports": 0,
+        "country_code": "IN",
+        "country_name": "India",
+        "isp": "DigitalOcean, LLC",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "domain": "digitalocean.com"
+      },
+      "alert_count": 2,
+      "ground_truth": {
+        "in_gt": false,
+        "label": null,
+        "capture_type": null
+      },
+      "search_hint": {
+        "primary_malware": "Emotet",
+        "search_keywords": [
+          "emotet",
+          "c2",
+          "command and control",
+          "botnet"
+        ],
+        "preferred_usage_type": "Data Center/Web Hosting/Transit"
+      }
+    },
+    {
+      "old_ip": "163.172.81.35",
+      "malware_families": [
+        "Emotet",
+        "Geodo"
+      ],
+      "signatures": [
+        "ET MALWARE W32.Geodo/Emotet Checkin",
+        "ET MALWARE W32/Emotet CnC Beacon 1"
+      ],
+      "signature_ids": [
+        "2024272",
+        "2024274"
+      ],
+      "categories": [
+        "Malware Command and Control Activity Detected"
+      ],
+      "tactic_ids": [],
+      "technique_ids": [],
+      "old_abuseipdb": {
+        "score": 0,
+        "total_reports": 0,
+        "country_code": "FR",
+        "country_name": "France",
+        "isp": "Scaleway Dedibox - Paris, France",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "domain": "scaleway.com"
+      },
+      "alert_count": 2,
+      "ground_truth": {
+        "in_gt": true,
+        "label": "malicious",
+        "capture_type": "botnet"
+      },
+      "search_hint": {
+        "primary_malware": "Emotet",
+        "search_keywords": [
+          "emotet",
+          "c2",
+          "command and control",
+          "botnet"
+        ],
+        "preferred_usage_type": "Data Center/Web Hosting/Transit"
+      }
+    },
+    {
+      "old_ip": "178.79.172.45",
+      "malware_families": [
+        "Emotet",
+        "Geodo"
+      ],
+      "signatures": [
+        "ET MALWARE W32.Geodo/Emotet Checkin",
+        "ET MALWARE W32/Emotet CnC Beacon 1"
+      ],
+      "signature_ids": [
+        "2024272",
+        "2024274"
+      ],
+      "categories": [
+        "Malware Command and Control Activity Detected"
+      ],
+      "tactic_ids": [],
+      "technique_ids": [],
+      "old_abuseipdb": {
+        "score": 0,
+        "total_reports": 0,
+        "country_code": "GB",
+        "country_name": "United Kingdom of Great Britain and Northern Ireland",
+        "isp": "Linode, LLC",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "domain": "linode.com"
+      },
+      "alert_count": 2,
+      "ground_truth": {
+        "in_gt": true,
+        "label": "malicious",
+        "capture_type": "botnet"
+      },
+      "search_hint": {
+        "primary_malware": "Emotet",
+        "search_keywords": [
+          "emotet",
+          "c2",
+          "command and control",
+          "botnet"
+        ],
+        "preferred_usage_type": "Data Center/Web Hosting/Transit"
+      }
+    },
+    {
+      "old_ip": "185.239.226.65",
+      "malware_families": [],
+      "signatures": [
+        "ET MALWARE APT Mustang Panda Payload - CnC Checkin"
+      ],
+      "signature_ids": [
+        "2028823"
+      ],
+      "categories": [
+        "Malware Command and Control Activity Detected"
+      ],
+      "tactic_ids": [],
+      "technique_ids": [],
+      "old_abuseipdb": {
+        "score": 0,
+        "total_reports": 0,
+        "country_code": "HK",
+        "country_name": "Hong Kong",
+        "isp": "HONGKONG WEN JING NETWORK LIMITED",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "domain": "svm.net"
+      },
+      "alert_count": 1,
+      "ground_truth": {
+        "in_gt": false,
+        "label": null,
+        "capture_type": null
+      },
+      "search_hint": {
+        "primary_malware": "Unknown",
+        "search_keywords": [
+          "unknown",
+          "c2",
+          "command and control",
+          "botnet"
+        ],
+        "preferred_usage_type": "Data Center/Web Hosting/Transit"
+      }
+    },
+    {
+      "old_ip": "185.66.41.19",
+      "malware_families": [],
+      "signatures": [
+        "ET MALWARE Gozi/BlackNet Checkin"
+      ],
+      "signature_ids": [
+        "2019378"
+      ],
+      "categories": [
+        "Malware Command and Control Activity Detected"
+      ],
+      "tactic_ids": [],
+      "technique_ids": [],
+      "old_abuseipdb": {
+        "score": 0,
+        "total_reports": 0,
+        "country_code": "ES",
+        "country_name": "Spain",
+        "isp": "10dencehispahard, S.L.",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "domain": "cdmon.com"
+      },
+      "alert_count": 1,
+      "ground_truth": {
+        "in_gt": true,
+        "label": "malicious",
+        "capture_type": "APT"
+      },
+      "search_hint": {
+        "primary_malware": "Unknown",
+        "search_keywords": [
+          "unknown",
+          "c2",
+          "command and control",
+          "botnet"
+        ],
+        "preferred_usage_type": "Data Center/Web Hosting/Transit"
+      }
+    },
+    {
+      "old_ip": "186.145.214.199",
+      "malware_families": [
+        "Bladabindi",
+        "njrat"
+      ],
+      "signatures": [
+        "ET MALWARE Generic njRAT/Bladabindi CnC Activity (ll)"
+      ],
+      "signature_ids": [
+        "2033132"
+      ],
+      "categories": [
+        "Malware Command and Control Activity Detected"
+      ],
+      "tactic_ids": [],
+      "technique_ids": [],
+      "old_abuseipdb": {
+        "score": 0,
+        "total_reports": 0,
+        "country_code": "CO",
+        "country_name": "Colombia",
+        "isp": "Telmex Colombia S.A.",
+        "usage_type": "Fixed Line ISP",
+        "domain": "telmexla.net.co"
+      },
+      "alert_count": 1,
+      "ground_truth": {
+        "in_gt": false,
+        "label": null,
+        "capture_type": null
+      },
+      "search_hint": {
+        "primary_malware": "Bladabindi",
+        "search_keywords": [
+          "bladabindi",
+          "c2",
+          "command and control",
+          "botnet"
+        ],
+        "preferred_usage_type": "Fixed Line ISP"
+      }
+    },
+    {
+      "old_ip": "192.155.83.86",
+      "malware_families": [
+        "Emotet",
+        "Geodo"
+      ],
+      "signatures": [
+        "ET MALWARE W32.Geodo/Emotet Checkin",
+        "ET MALWARE W32/Emotet CnC Beacon 1"
+      ],
+      "signature_ids": [
+        "2024272",
+        "2024274"
+      ],
+      "categories": [
+        "Malware Command and Control Activity Detected"
+      ],
+      "tactic_ids": [],
+      "technique_ids": [],
+      "old_abuseipdb": {
+        "score": 0,
+        "total_reports": 0,
+        "country_code": "US",
+        "country_name": "United States of America",
+        "isp": "Linode",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "domain": "linode.com"
+      },
+      "alert_count": 2,
+      "ground_truth": {
+        "in_gt": true,
+        "label": "malicious",
+        "capture_type": "botnet"
+      },
+      "search_hint": {
+        "primary_malware": "Emotet",
+        "search_keywords": [
+          "emotet",
+          "c2",
+          "command and control",
+          "botnet"
+        ],
+        "preferred_usage_type": "Data Center/Web Hosting/Transit"
+      }
+    },
+    {
+      "old_ip": "204.11.56.48",
+      "malware_families": [],
+      "signatures": [
+        "ET MALWARE Sakula/Mivast RAT CnC Beacon 1"
+      ],
+      "signature_ids": [
+        "2016139"
+      ],
+      "categories": [
+        "Malware Command and Control Activity Detected"
+      ],
+      "tactic_ids": [],
+      "technique_ids": [],
+      "old_abuseipdb": {
+        "score": 0,
+        "total_reports": 0,
+        "country_code": "US",
+        "country_name": "United States of America",
+        "isp": "Confluence Networks Inc",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "domain": "confluence-networks.com"
+      },
+      "alert_count": 2,
+      "ground_truth": {
+        "in_gt": false,
+        "label": null,
+        "capture_type": null
+      },
+      "search_hint": {
+        "primary_malware": "Unknown",
+        "search_keywords": [
+          "unknown",
+          "c2",
+          "command and control",
+          "botnet"
+        ],
+        "preferred_usage_type": "Data Center/Web Hosting/Transit"
+      }
+    },
+    {
+      "old_ip": "204.95.99.221",
+      "malware_families": [
+        "Ramnit"
+      ],
+      "signatures": [
+        "ET MALWARE Win32/Ramnit Checkin"
+      ],
+      "signature_ids": [
+        "2018558"
+      ],
+      "categories": [
+        "Malware Command and Control Activity Detected"
+      ],
+      "tactic_ids": [],
+      "technique_ids": [],
+      "old_abuseipdb": {
+        "score": 0,
+        "total_reports": 0,
+        "country_code": "US",
+        "country_name": "United States of America",
+        "isp": "Microsoft Corporation",
+        "usage_type": "Fixed Line ISP",
+        "domain": "microsoft.com"
+      },
+      "alert_count": 1,
+      "ground_truth": {
+        "in_gt": true,
+        "label": "malicious",
+        "capture_type": "botnet"
+      },
+      "search_hint": {
+        "primary_malware": "Ramnit",
+        "search_keywords": [
+          "ramnit",
+          "c2",
+          "command and control",
+          "botnet"
+        ],
+        "preferred_usage_type": "Fixed Line ISP"
+      }
+    },
+    {
+      "old_ip": "208.97.148.181",
+      "malware_families": [],
+      "signatures": [
+        "ET MALWARE Gozi/BlackNet Checkin"
+      ],
+      "signature_ids": [
+        "2019378"
+      ],
+      "categories": [
+        "Malware Command and Control Activity Detected"
+      ],
+      "tactic_ids": [],
+      "technique_ids": [],
+      "old_abuseipdb": {
+        "score": 0,
+        "total_reports": 0,
+        "country_code": "US",
+        "country_name": "United States of America",
+        "isp": "DreamHost",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "domain": "dreamhost.com"
+      },
+      "alert_count": 1,
+      "ground_truth": {
+        "in_gt": true,
+        "label": "malicious",
+        "capture_type": "APT"
+      },
+      "search_hint": {
+        "primary_malware": "Unknown",
+        "search_keywords": [
+          "unknown",
+          "c2",
+          "command and control",
+          "botnet"
+        ],
+        "preferred_usage_type": "Data Center/Web Hosting/Transit"
+      }
+    },
+    {
+      "old_ip": "3.223.115.185",
+      "malware_families": [],
+      "signatures": [
+        "ET MALWARE Sakula/Mivast RAT CnC Beacon 1",
+        "ET MALWARE Sakula/Mivast RAT CnC Beacon 2",
+        "ET MALWARE Sakula/Mivast RAT CnC Beacon 3"
+      ],
+      "signature_ids": [
+        "2016139",
+        "2021200",
+        "2021201"
+      ],
+      "categories": [
+        "Malware Command and Control Activity Detected"
+      ],
+      "tactic_ids": [],
+      "technique_ids": [],
+      "old_abuseipdb": {
+        "score": 0,
+        "total_reports": 0,
+        "country_code": "US",
+        "country_name": "United States of America",
+        "isp": "Amazon Data Services Northern Virginia",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "domain": "amazon.com"
+      },
+      "alert_count": 6,
+      "ground_truth": {
+        "in_gt": false,
+        "label": null,
+        "capture_type": null
+      },
+      "search_hint": {
+        "primary_malware": "Unknown",
+        "search_keywords": [
+          "unknown",
+          "c2",
+          "command and control",
+          "botnet"
+        ],
+        "preferred_usage_type": "Data Center/Web Hosting/Transit"
+      }
+    },
+    {
+      "old_ip": "45.79.186.178",
+      "malware_families": [
+        "Emotet",
+        "Geodo"
+      ],
+      "signatures": [
+        "ET MALWARE W32.Geodo/Emotet Checkin",
+        "ET MALWARE W32/Emotet CnC Beacon 1"
+      ],
+      "signature_ids": [
+        "2024272",
+        "2024274"
+      ],
+      "categories": [
+        "Malware Command and Control Activity Detected"
+      ],
+      "tactic_ids": [],
+      "technique_ids": [],
+      "old_abuseipdb": {
+        "score": 0,
+        "total_reports": 0,
+        "country_code": "US",
+        "country_name": "United States of America",
+        "isp": "Linode",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "domain": "linode.com"
+      },
+      "alert_count": 2,
+      "ground_truth": {
+        "in_gt": true,
+        "label": "malicious",
+        "capture_type": "botnet"
+      },
+      "search_hint": {
+        "primary_malware": "Emotet",
+        "search_keywords": [
+          "emotet",
+          "c2",
+          "command and control",
+          "botnet"
+        ],
+        "preferred_usage_type": "Data Center/Web Hosting/Transit"
+      }
+    },
+    {
+      "old_ip": "46.163.78.94",
+      "malware_families": [
+        "Emotet",
+        "Geodo"
+      ],
+      "signatures": [
+        "ET MALWARE W32.Geodo/Emotet Checkin",
+        "ET MALWARE W32/Emotet CnC Beacon 1"
+      ],
+      "signature_ids": [
+        "2024272",
+        "2024274"
+      ],
+      "categories": [
+        "Malware Command and Control Activity Detected"
+      ],
+      "tactic_ids": [],
+      "technique_ids": [],
+      "old_abuseipdb": {
+        "score": 0,
+        "total_reports": 0,
+        "country_code": "FR",
+        "country_name": "France",
+        "isp": "Host Europe GmbH",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "domain": "hosteurope.de"
+      },
+      "alert_count": 2,
+      "ground_truth": {
+        "in_gt": true,
+        "label": "malicious",
+        "capture_type": "botnet"
+      },
+      "search_hint": {
+        "primary_malware": "Emotet",
+        "search_keywords": [
+          "emotet",
+          "c2",
+          "command and control",
+          "botnet"
+        ],
+        "preferred_usage_type": "Data Center/Web Hosting/Transit"
+      }
+    },
+    {
+      "old_ip": "62.75.145.252",
+      "malware_families": [
+        "Emotet",
+        "Geodo"
+      ],
+      "signatures": [
+        "ET MALWARE W32.Geodo/Emotet Checkin",
+        "ET MALWARE W32/Emotet CnC Beacon 1"
+      ],
+      "signature_ids": [
+        "2024272",
+        "2024274"
+      ],
+      "categories": [
+        "Malware Command and Control Activity Detected"
+      ],
+      "tactic_ids": [],
+      "technique_ids": [],
+      "old_abuseipdb": {
+        "score": 0,
+        "total_reports": 0,
+        "country_code": "DE",
+        "country_name": "Germany",
+        "isp": "Host Europe GmbH",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "domain": "hosteurope.de"
+      },
+      "alert_count": 2,
+      "ground_truth": {
+        "in_gt": true,
+        "label": "malicious",
+        "capture_type": "botnet"
+      },
+      "search_hint": {
+        "primary_malware": "Emotet",
+        "search_keywords": [
+          "emotet",
+          "c2",
+          "command and control",
+          "botnet"
+        ],
+        "preferred_usage_type": "Data Center/Web Hosting/Transit"
+      }
+    },
+    {
+      "old_ip": "66.175.215.16",
+      "malware_families": [
+        "Emotet",
+        "Geodo"
+      ],
+      "signatures": [
+        "ET MALWARE W32.Geodo/Emotet Checkin",
+        "ET MALWARE W32/Emotet CnC Beacon 1"
+      ],
+      "signature_ids": [
+        "2024272",
+        "2024274"
+      ],
+      "categories": [
+        "Malware Command and Control Activity Detected"
+      ],
+      "tactic_ids": [],
+      "technique_ids": [],
+      "old_abuseipdb": {
+        "score": 0,
+        "total_reports": 0,
+        "country_code": "US",
+        "country_name": "United States of America",
+        "isp": "Linode",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "domain": "linode.com"
+      },
+      "alert_count": 2,
+      "ground_truth": {
+        "in_gt": false,
+        "label": null,
+        "capture_type": null
+      },
+      "search_hint": {
+        "primary_malware": "Emotet",
+        "search_keywords": [
+          "emotet",
+          "c2",
+          "command and control",
+          "botnet"
+        ],
+        "preferred_usage_type": "Data Center/Web Hosting/Transit"
+      }
+    },
+    {
+      "old_ip": "81.88.24.211",
+      "malware_families": [
+        "Emotet",
+        "Geodo"
+      ],
+      "signatures": [
+        "ET MALWARE W32.Geodo/Emotet Checkin",
+        "ET MALWARE W32/Emotet CnC Beacon 1"
+      ],
+      "signature_ids": [
+        "2024272",
+        "2024274"
+      ],
+      "categories": [
+        "Malware Command and Control Activity Detected"
+      ],
+      "tactic_ids": [],
+      "technique_ids": [],
+      "old_abuseipdb": {
+        "score": 0,
+        "total_reports": 0,
+        "country_code": "DE",
+        "country_name": "Germany",
+        "isp": "dogado GmbH",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "domain": "dogado.de"
+      },
+      "alert_count": 2,
+      "ground_truth": {
+        "in_gt": true,
+        "label": "malicious",
+        "capture_type": "botnet"
+      },
+      "search_hint": {
+        "primary_malware": "Emotet",
+        "search_keywords": [
+          "emotet",
+          "c2",
+          "command and control",
+          "botnet"
+        ],
+        "preferred_usage_type": "Data Center/Web Hosting/Transit"
+      }
+    },
+    {
+      "old_ip": "82.165.142.107",
+      "malware_families": [
+        "Emotet",
+        "Geodo"
+      ],
+      "signatures": [
+        "ET MALWARE W32.Geodo/Emotet Checkin",
+        "ET MALWARE W32/Emotet CnC Beacon 1"
+      ],
+      "signature_ids": [
+        "2024272",
+        "2024274"
+      ],
+      "categories": [
+        "Malware Command and Control Activity Detected"
+      ],
+      "tactic_ids": [],
+      "technique_ids": [],
+      "old_abuseipdb": {
+        "score": 0,
+        "total_reports": 0,
+        "country_code": "ES",
+        "country_name": "Spain",
+        "isp": "IONOS SE",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "domain": "ionos.com"
+      },
+      "alert_count": 2,
+      "ground_truth": {
+        "in_gt": true,
+        "label": "malicious",
+        "capture_type": "botnet"
+      },
+      "search_hint": {
+        "primary_malware": "Emotet",
+        "search_keywords": [
+          "emotet",
+          "c2",
+          "command and control",
+          "botnet"
+        ],
+        "preferred_usage_type": "Data Center/Web Hosting/Transit"
+      }
+    },
+    {
+      "old_ip": "82.223.110.35",
+      "malware_families": [],
+      "signatures": [
+        "ET MALWARE Gozi/BlackNet Checkin"
+      ],
+      "signature_ids": [
+        "2019378"
+      ],
+      "categories": [
+        "Malware Command and Control Activity Detected"
+      ],
+      "tactic_ids": [],
+      "technique_ids": [],
+      "old_abuseipdb": {
+        "score": 0,
+        "total_reports": 0,
+        "country_code": "ES",
+        "country_name": "Spain",
+        "isp": "arsys.es",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "domain": "arsys.es"
+      },
+      "alert_count": 1,
+      "ground_truth": {
+        "in_gt": true,
+        "label": "malicious",
+        "capture_type": "APT"
+      },
+      "search_hint": {
+        "primary_malware": "Unknown",
+        "search_keywords": [
+          "unknown",
+          "c2",
+          "command and control",
+          "botnet"
+        ],
+        "preferred_usage_type": "Data Center/Web Hosting/Transit"
+      }
+    },
+    {
+      "old_ip": "84.124.52.38",
+      "malware_families": [],
+      "signatures": [
+        "ET MALWARE Gozi/BlackNet Checkin"
+      ],
+      "signature_ids": [
+        "2019378"
+      ],
+      "categories": [
+        "Malware Command and Control Activity Detected"
+      ],
+      "tactic_ids": [],
+      "technique_ids": [],
+      "old_abuseipdb": {
+        "score": 0,
+        "total_reports": 0,
+        "country_code": "ES",
+        "country_name": "Spain",
+        "isp": "VODAFONE ONO, S.A.",
+        "usage_type": "Fixed Line ISP",
+        "domain": "vodafone.es"
+      },
+      "alert_count": 1,
+      "ground_truth": {
+        "in_gt": true,
+        "label": "malicious",
+        "capture_type": "APT"
+      },
+      "search_hint": {
+        "primary_malware": "Unknown",
+        "search_keywords": [
+          "unknown",
+          "c2",
+          "command and control",
+          "botnet"
+        ],
+        "preferred_usage_type": "Fixed Line ISP"
+      }
+    },
+    {
+      "old_ip": "85.25.119.91",
+      "malware_families": [
+        "Emotet",
+        "Geodo"
+      ],
+      "signatures": [
+        "ET MALWARE W32.Geodo/Emotet Checkin",
+        "ET MALWARE W32/Emotet CnC Beacon 1"
+      ],
+      "signature_ids": [
+        "2024272",
+        "2024274"
+      ],
+      "categories": [
+        "Malware Command and Control Activity Detected"
+      ],
+      "tactic_ids": [],
+      "technique_ids": [],
+      "old_abuseipdb": {
+        "score": 0,
+        "total_reports": 0,
+        "country_code": "FR",
+        "country_name": "France",
+        "isp": "BSB-SERVICE Dedicated Server Hosting",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "domain": "startdedicated.de"
+      },
+      "alert_count": 2,
+      "ground_truth": {
+        "in_gt": true,
+        "label": "malicious",
+        "capture_type": "botnet"
+      },
+      "search_hint": {
+        "primary_malware": "Emotet",
+        "search_keywords": [
+          "emotet",
+          "c2",
+          "command and control",
+          "botnet"
+        ],
+        "preferred_usage_type": "Data Center/Web Hosting/Transit"
+      }
+    },
+    {
+      "old_ip": "87.106.77.193",
+      "malware_families": [
+        "Emotet",
+        "Geodo"
+      ],
+      "signatures": [
+        "ET MALWARE W32.Geodo/Emotet Checkin",
+        "ET MALWARE W32/Emotet CnC Beacon 1"
+      ],
+      "signature_ids": [
+        "2024272",
+        "2024274"
+      ],
+      "categories": [
+        "Malware Command and Control Activity Detected"
+      ],
+      "tactic_ids": [],
+      "technique_ids": [],
+      "old_abuseipdb": {
+        "score": 0,
+        "total_reports": 4,
+        "country_code": "DE",
+        "country_name": "Germany",
+        "isp": "IONOS SE",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "domain": "ionos.com"
+      },
+      "alert_count": 2,
+      "ground_truth": {
+        "in_gt": true,
+        "label": "malicious",
+        "capture_type": "botnet"
+      },
+      "search_hint": {
+        "primary_malware": "Emotet",
+        "search_keywords": [
+          "emotet",
+          "c2",
+          "command and control",
+          "botnet"
+        ],
+        "preferred_usage_type": "Data Center/Web Hosting/Transit"
+      }
+    },
+    {
+      "old_ip": "91.220.62.30",
+      "malware_families": [
+        "Ramnit"
+      ],
+      "signatures": [
+        "ET MALWARE Win32/Ramnit Checkin"
+      ],
+      "signature_ids": [
+        "2018558"
+      ],
+      "categories": [
+        "Malware Command and Control Activity Detected"
+      ],
+      "tactic_ids": [],
+      "technique_ids": [],
+      "old_abuseipdb": {
+        "score": 0,
+        "total_reports": 0,
+        "country_code": "NL",
+        "country_name": "Netherlands",
+        "isp": "Noisypeak Sarl",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "domain": "noisypeak.com"
+      },
+      "alert_count": 1,
+      "ground_truth": {
+        "in_gt": true,
+        "label": "malicious",
+        "capture_type": "botnet"
+      },
+      "search_hint": {
+        "primary_malware": "Ramnit",
+        "search_keywords": [
+          "ramnit",
+          "c2",
+          "command and control",
+          "botnet"
+        ],
+        "preferred_usage_type": "Data Center/Web Hosting/Transit"
+      }
+    },
+    {
+      "old_ip": "95.110.231.207",
+      "malware_families": [
+        "Emotet",
+        "Geodo"
+      ],
+      "signatures": [
+        "ET MALWARE W32.Geodo/Emotet Checkin",
+        "ET MALWARE W32/Emotet CnC Beacon 1"
+      ],
+      "signature_ids": [
+        "2024272",
+        "2024274"
+      ],
+      "categories": [
+        "Malware Command and Control Activity Detected"
+      ],
+      "tactic_ids": [],
+      "technique_ids": [],
+      "old_abuseipdb": {
+        "score": 0,
+        "total_reports": 0,
+        "country_code": "IT",
+        "country_name": "Italy",
+        "isp": "Aruba S.p.A. - Dedicated servers",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "domain": "aruba.it"
+      },
+      "alert_count": 2,
+      "ground_truth": {
+        "in_gt": false,
+        "label": null,
+        "capture_type": null
+      },
+      "search_hint": {
+        "primary_malware": "Emotet",
+        "search_keywords": [
+          "emotet",
+          "c2",
+          "command and control",
+          "botnet"
+        ],
+        "preferred_usage_type": "Data Center/Web Hosting/Transit"
+      }
+    }
+  ]
+}

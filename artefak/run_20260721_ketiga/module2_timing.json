@@ -1,0 +1,7 @@
+{
+  "ip_queried": 26,
+  "mean_seconds": 1.266,
+  "min_seconds": 0.92,
+  "max_seconds": 1.877,
+  "note": "Durasi query API murni, tidak termasuk jeda rate limit antar request."
+}

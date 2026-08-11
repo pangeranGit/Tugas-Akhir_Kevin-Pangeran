@@ -1,0 +1,1487 @@
+{
+  "metadata": {
+    "evaluated_at": "2026-07-21T14:21:06.380169",
+    "enriched_alerts_file": "/home/kali/ta-pipeline/output/enriched_alerts.json",
+    "ground_truth_file": "/home/kali/ta-pipeline/dataset/EarlyCrowAPT/data/contextual_summaries/testing.csv",
+    "ground_truth_stats": {
+      "total_entries": 561,
+      "malicious": 60,
+      "legitimate": 501
+    },
+    "total_alerts_evaluated": 47,
+    "scheme": "2 metrik utama (M-1, M-2) + 1 kondisi validitas; enrichment sebagai temuan"
+  },
+  "metrics": {
+    "m1_coverage": {
+      "metric": "M-1",
+      "name": "MITRE Mapping Coverage",
+      "formula": "Alert terpetakan valid (taktik relevan C2/eksfiltrasi + teknik terisi) / Total alert C2",
+      "value": 1.0,
+      "value_percent": 100.0,
+      "mapping_valid": 47,
+      "with_techniques": 47,
+      "total_alerts": 47,
+      "mapping_sources": {
+        "layer2_classtype + layer3_malware_family": 18,
+        "layer1_metadata": 24,
+        "layer2_classtype + layer3_signature_pattern": 5
+      },
+      "technique_distribution": {
+        "T1041": 24,
+        "T1071.001": 21,
+        "T1071": 2
+      }
+    },
+    "m2_fidelity": {
+      "metric": "M-2",
+      "name": "AI Summary Fidelity",
+      "formula": "(1/n) * \u03a3((D1 + D2 + D3) / 3)",
+      "value": 2.9078,
+      "scale_max": 3.0,
+      "avg_d1_factual": 2.9149,
+      "avg_d2_completeness": 2.9149,
+      "avg_d3_relevance": 2.8936,
+      "d1_distribution": {
+        "score_1": 2,
+        "score_3": 45
+      },
+      "d2_distribution": {
+        "score_1": 2,
+        "score_3": 45
+      },
+      "d3_distribution": {
+        "score_1": 2,
+        "score_2": 1,
+        "score_3": 44
+      },
+      "total_alerts": 47
+    }
+  },
+  "validity_coverage": {
+    "name": "Pipeline Coverage (Kondisi Validitas)",
+    "formula": "Alert complete / Total alert masuk \u00d7 100%",
+    "value": 0.9574,
+    "value_percent": 95.74,
+    "complete": 45,
+    "incomplete": 2,
+    "total_alerts_in": 47,
+    "per_module_complete": {
+      "abuseipdb": 47,
+      "mitre": 47,
+      "llm": 45
+    },
+    "incomplete_detail": [
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "has_abuseipdb": true,
+        "has_mitre": true,
+        "has_llm": false
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "has_abuseipdb": true,
+        "has_mitre": true,
+        "has_llm": false
+      }
+    ]
+  },
+  "enrichment_finding": {
+    "note": "TEMUAN, bukan metrik evaluasi utama. Enrichment Accuracy (eks M1-1) dihapus (sirkular).",
+    "classification_accuracy_finding": 1.0,
+    "classification_accuracy_percent": 100.0,
+    "evaluable_ips": 31,
+    "gt_malicious": 31,
+    "gt_legitimate": 0,
+    "classified_malicious": 31,
+    "alerts_with_zero_score": 0
+  },
+  "detail": {
+    "m1_per_alert": [
+      {
+        "signature": "ET MALWARE Win32/Ramnit Checkin",
+        "tactic_ids": [
+          "TA0011"
+        ],
+        "technique_ids": [
+          "T1071.001"
+        ],
+        "mapping_source": "layer2_classtype + layer3_malware_family",
+        "ta0011_present": true,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE Win32/Ramnit Checkin",
+        "tactic_ids": [
+          "TA0011"
+        ],
+        "technique_ids": [
+          "T1071.001"
+        ],
+        "mapping_source": "layer2_classtype + layer3_malware_family",
+        "ta0011_present": true,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "tactic_ids": [
+          "TA0011"
+        ],
+        "technique_ids": [
+          "T1071.001"
+        ],
+        "mapping_source": "layer2_classtype + layer3_malware_family",
+        "ta0011_present": true,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "tactic_ids": [
+          "TA0010"
+        ],
+        "technique_ids": [
+          "T1041"
+        ],
+        "mapping_source": "layer1_metadata",
+        "ta0011_present": false,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "tactic_ids": [
+          "TA0010"
+        ],
+        "technique_ids": [
+          "T1041"
+        ],
+        "mapping_source": "layer1_metadata",
+        "ta0011_present": false,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "tactic_ids": [
+          "TA0011"
+        ],
+        "technique_ids": [
+          "T1071.001"
+        ],
+        "mapping_source": "layer2_classtype + layer3_malware_family",
+        "ta0011_present": true,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "tactic_ids": [
+          "TA0010"
+        ],
+        "technique_ids": [
+          "T1041"
+        ],
+        "mapping_source": "layer1_metadata",
+        "ta0011_present": false,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "tactic_ids": [
+          "TA0011"
+        ],
+        "technique_ids": [
+          "T1071.001"
+        ],
+        "mapping_source": "layer2_classtype + layer3_malware_family",
+        "ta0011_present": true,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "tactic_ids": [
+          "TA0011"
+        ],
+        "technique_ids": [
+          "T1071.001"
+        ],
+        "mapping_source": "layer2_classtype + layer3_malware_family",
+        "ta0011_present": true,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "tactic_ids": [
+          "TA0010"
+        ],
+        "technique_ids": [
+          "T1041"
+        ],
+        "mapping_source": "layer1_metadata",
+        "ta0011_present": false,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "tactic_ids": [
+          "TA0010"
+        ],
+        "technique_ids": [
+          "T1041"
+        ],
+        "mapping_source": "layer1_metadata",
+        "ta0011_present": false,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "tactic_ids": [
+          "TA0011"
+        ],
+        "technique_ids": [
+          "T1071.001"
+        ],
+        "mapping_source": "layer2_classtype + layer3_malware_family",
+        "ta0011_present": true,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "tactic_ids": [
+          "TA0011"
+        ],
+        "technique_ids": [
+          "T1071.001"
+        ],
+        "mapping_source": "layer2_classtype + layer3_malware_family",
+        "ta0011_present": true,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "tactic_ids": [
+          "TA0010"
+        ],
+        "technique_ids": [
+          "T1041"
+        ],
+        "mapping_source": "layer1_metadata",
+        "ta0011_present": false,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "tactic_ids": [
+          "TA0011"
+        ],
+        "technique_ids": [
+          "T1071.001"
+        ],
+        "mapping_source": "layer2_classtype + layer3_malware_family",
+        "ta0011_present": true,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "tactic_ids": [
+          "TA0010"
+        ],
+        "technique_ids": [
+          "T1041"
+        ],
+        "mapping_source": "layer1_metadata",
+        "ta0011_present": false,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "tactic_ids": [
+          "TA0010"
+        ],
+        "technique_ids": [
+          "T1041"
+        ],
+        "mapping_source": "layer1_metadata",
+        "ta0011_present": false,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "tactic_ids": [
+          "TA0011"
+        ],
+        "technique_ids": [
+          "T1071.001"
+        ],
+        "mapping_source": "layer2_classtype + layer3_malware_family",
+        "ta0011_present": true,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "tactic_ids": [
+          "TA0011"
+        ],
+        "technique_ids": [
+          "T1071.001"
+        ],
+        "mapping_source": "layer2_classtype + layer3_malware_family",
+        "ta0011_present": true,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "tactic_ids": [
+          "TA0010"
+        ],
+        "technique_ids": [
+          "T1041"
+        ],
+        "mapping_source": "layer1_metadata",
+        "ta0011_present": false,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "tactic_ids": [
+          "TA0011"
+        ],
+        "technique_ids": [
+          "T1071.001"
+        ],
+        "mapping_source": "layer2_classtype + layer3_malware_family",
+        "ta0011_present": true,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "tactic_ids": [
+          "TA0010"
+        ],
+        "technique_ids": [
+          "T1041"
+        ],
+        "mapping_source": "layer1_metadata",
+        "ta0011_present": false,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "tactic_ids": [
+          "TA0010"
+        ],
+        "technique_ids": [
+          "T1041"
+        ],
+        "mapping_source": "layer1_metadata",
+        "ta0011_present": false,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "tactic_ids": [
+          "TA0011"
+        ],
+        "technique_ids": [
+          "T1071.001"
+        ],
+        "mapping_source": "layer2_classtype + layer3_malware_family",
+        "ta0011_present": true,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "tactic_ids": [
+          "TA0011"
+        ],
+        "technique_ids": [
+          "T1071.001"
+        ],
+        "mapping_source": "layer2_classtype + layer3_malware_family",
+        "ta0011_present": true,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "tactic_ids": [
+          "TA0010"
+        ],
+        "technique_ids": [
+          "T1041"
+        ],
+        "mapping_source": "layer1_metadata",
+        "ta0011_present": false,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "tactic_ids": [
+          "TA0011"
+        ],
+        "technique_ids": [
+          "T1071.001"
+        ],
+        "mapping_source": "layer2_classtype + layer3_malware_family",
+        "ta0011_present": true,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "tactic_ids": [
+          "TA0010"
+        ],
+        "technique_ids": [
+          "T1041"
+        ],
+        "mapping_source": "layer1_metadata",
+        "ta0011_present": false,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "tactic_ids": [
+          "TA0010"
+        ],
+        "technique_ids": [
+          "T1041"
+        ],
+        "mapping_source": "layer1_metadata",
+        "ta0011_present": false,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "tactic_ids": [
+          "TA0011"
+        ],
+        "technique_ids": [
+          "T1071.001"
+        ],
+        "mapping_source": "layer2_classtype + layer3_malware_family",
+        "ta0011_present": true,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "tactic_ids": [
+          "TA0010"
+        ],
+        "technique_ids": [
+          "T1041"
+        ],
+        "mapping_source": "layer1_metadata",
+        "ta0011_present": false,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "tactic_ids": [
+          "TA0011"
+        ],
+        "technique_ids": [
+          "T1071.001"
+        ],
+        "mapping_source": "layer2_classtype + layer3_malware_family",
+        "ta0011_present": true,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET RETIRED PoisonIvy HTTP CnC Beacon",
+        "tactic_ids": [
+          "TA0010"
+        ],
+        "technique_ids": [
+          "T1041"
+        ],
+        "mapping_source": "layer1_metadata",
+        "ta0011_present": false,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE Generic njRAT/Bladabindi CnC Activity (ll)",
+        "tactic_ids": [
+          "TA0011"
+        ],
+        "technique_ids": [
+          "T1071"
+        ],
+        "mapping_source": "layer2_classtype + layer3_malware_family",
+        "ta0011_present": true,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE APT Mustang Panda Payload - CnC Checkin",
+        "tactic_ids": [
+          "TA0011"
+        ],
+        "technique_ids": [
+          "T1071"
+        ],
+        "mapping_source": "layer2_classtype + layer3_signature_pattern",
+        "ta0011_present": true,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE Gozi/BlackNet Checkin",
+        "tactic_ids": [
+          "TA0011"
+        ],
+        "technique_ids": [
+          "T1071.001"
+        ],
+        "mapping_source": "layer2_classtype + layer3_signature_pattern",
+        "ta0011_present": true,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE Gozi/BlackNet Checkin",
+        "tactic_ids": [
+          "TA0011"
+        ],
+        "technique_ids": [
+          "T1071.001"
+        ],
+        "mapping_source": "layer2_classtype + layer3_signature_pattern",
+        "ta0011_present": true,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE Gozi/BlackNet Checkin",
+        "tactic_ids": [
+          "TA0011"
+        ],
+        "technique_ids": [
+          "T1071.001"
+        ],
+        "mapping_source": "layer2_classtype + layer3_signature_pattern",
+        "ta0011_present": true,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE Gozi/BlackNet Checkin",
+        "tactic_ids": [
+          "TA0011"
+        ],
+        "technique_ids": [
+          "T1071.001"
+        ],
+        "mapping_source": "layer2_classtype + layer3_signature_pattern",
+        "ta0011_present": true,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 1",
+        "tactic_ids": [
+          "TA0010"
+        ],
+        "technique_ids": [
+          "T1041"
+        ],
+        "mapping_source": "layer1_metadata",
+        "ta0011_present": false,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 1",
+        "tactic_ids": [
+          "TA0010"
+        ],
+        "technique_ids": [
+          "T1041"
+        ],
+        "mapping_source": "layer1_metadata",
+        "ta0011_present": false,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 2",
+        "tactic_ids": [
+          "TA0010"
+        ],
+        "technique_ids": [
+          "T1041"
+        ],
+        "mapping_source": "layer1_metadata",
+        "ta0011_present": false,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 3",
+        "tactic_ids": [
+          "TA0010"
+        ],
+        "technique_ids": [
+          "T1041"
+        ],
+        "mapping_source": "layer1_metadata",
+        "ta0011_present": false,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 1",
+        "tactic_ids": [
+          "TA0010"
+        ],
+        "technique_ids": [
+          "T1041"
+        ],
+        "mapping_source": "layer1_metadata",
+        "ta0011_present": false,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 1",
+        "tactic_ids": [
+          "TA0010"
+        ],
+        "technique_ids": [
+          "T1041"
+        ],
+        "mapping_source": "layer1_metadata",
+        "ta0011_present": false,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 2",
+        "tactic_ids": [
+          "TA0010"
+        ],
+        "technique_ids": [
+          "T1041"
+        ],
+        "mapping_source": "layer1_metadata",
+        "ta0011_present": false,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      },
+      {
+        "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 3",
+        "tactic_ids": [
+          "TA0010"
+        ],
+        "technique_ids": [
+          "T1041"
+        ],
+        "mapping_source": "layer1_metadata",
+        "ta0011_present": false,
+        "tactic_relevant": true,
+        "has_techniques": true,
+        "is_valid": true
+      }
+    ],
+    "m2_per_alert": [
+      {
+        "signature": "ET MALWARE Win32/Ramnit Checkin",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 169,
+        "threat_context_len": 168,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE Win32/Ramnit Checkin",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 210,
+        "threat_context_len": 188,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 185,
+        "threat_context_len": 175,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 162,
+        "threat_context_len": 152,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 207,
+        "threat_context_len": 181,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "d1": 1,
+        "d2": 1,
+        "d3": 1,
+        "score": 1.0,
+        "behavior_len": 0,
+        "threat_context_len": 0,
+        "parse_status": "empty_response"
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 154,
+        "threat_context_len": 154,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "d1": 1,
+        "d2": 1,
+        "d3": 1,
+        "score": 1.0,
+        "behavior_len": 0,
+        "threat_context_len": 0,
+        "parse_status": "empty_response"
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 180,
+        "threat_context_len": 191,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 160,
+        "threat_context_len": 155,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 165,
+        "threat_context_len": 179,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 229,
+        "threat_context_len": 191,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 229,
+        "threat_context_len": 193,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 154,
+        "threat_context_len": 161,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 161,
+        "threat_context_len": 188,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 160,
+        "threat_context_len": 153,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 193,
+        "threat_context_len": 199,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 191,
+        "threat_context_len": 191,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 172,
+        "threat_context_len": 168,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 191,
+        "threat_context_len": 180,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "d1": 3,
+        "d2": 3,
+        "d3": 2,
+        "score": 2.6667,
+        "behavior_len": 128,
+        "threat_context_len": 197,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 170,
+        "threat_context_len": 167,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 191,
+        "threat_context_len": 178,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 196,
+        "threat_context_len": 233,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 159,
+        "threat_context_len": 168,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 177,
+        "threat_context_len": 171,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 165,
+        "threat_context_len": 173,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 155,
+        "threat_context_len": 155,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 184,
+        "threat_context_len": 149,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 192,
+        "threat_context_len": 169,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 185,
+        "threat_context_len": 154,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 168,
+        "threat_context_len": 178,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET RETIRED PoisonIvy HTTP CnC Beacon",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 176,
+        "threat_context_len": 160,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE Generic njRAT/Bladabindi CnC Activity (ll)",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 197,
+        "threat_context_len": 193,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE APT Mustang Panda Payload - CnC Checkin",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 169,
+        "threat_context_len": 155,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE Gozi/BlackNet Checkin",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 197,
+        "threat_context_len": 181,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE Gozi/BlackNet Checkin",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 180,
+        "threat_context_len": 161,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE Gozi/BlackNet Checkin",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 181,
+        "threat_context_len": 158,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE Gozi/BlackNet Checkin",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 150,
+        "threat_context_len": 152,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 1",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 207,
+        "threat_context_len": 155,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 1",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 167,
+        "threat_context_len": 157,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 2",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 178,
+        "threat_context_len": 149,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 3",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 205,
+        "threat_context_len": 181,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 1",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 183,
+        "threat_context_len": 153,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 1",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 207,
+        "threat_context_len": 156,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 2",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 168,
+        "threat_context_len": 199,
+        "parse_status": "success"
+      },
+      {
+        "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 3",
+        "d1": 3,
+        "d2": 3,
+        "d3": 3,
+        "score": 3.0,
+        "behavior_len": 202,
+        "threat_context_len": 156,
+        "parse_status": "success"
+      }
+    ],
+    "enrichment_per_alert": [
+      {
+        "original_ip": "91.220.62.30",
+        "dest_ip_substituted": "45.148.10.147",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "204.95.99.221",
+        "dest_ip_substituted": "65.49.139.223",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "82.165.142.107",
+        "dest_ip_substituted": "172.110.219.251",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "82.165.142.107",
+        "dest_ip_substituted": "172.110.219.251",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "103.4.18.170",
+        "dest_ip_substituted": "223.27.18.80",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "103.4.18.170",
+        "dest_ip_substituted": "223.27.18.80",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "46.163.78.94",
+        "dest_ip_substituted": "173.249.52.138",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "46.163.78.94",
+        "dest_ip_substituted": "173.249.52.138",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "81.88.24.211",
+        "dest_ip_substituted": "185.68.184.46",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "81.88.24.211",
+        "dest_ip_substituted": "185.68.184.46",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "45.79.186.178",
+        "dest_ip_substituted": "184.105.247.242",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "45.79.186.178",
+        "dest_ip_substituted": "184.105.247.242",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "87.106.77.193",
+        "dest_ip_substituted": "176.65.132.149",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "87.106.77.193",
+        "dest_ip_substituted": "176.65.132.149",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "163.172.81.35",
+        "dest_ip_substituted": "62.210.89.150",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "163.172.81.35",
+        "dest_ip_substituted": "62.210.89.150",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "109.169.66.107",
+        "dest_ip_substituted": "139.59.184.99",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "109.169.66.107",
+        "dest_ip_substituted": "139.59.184.99",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "85.25.119.91",
+        "dest_ip_substituted": "213.199.52.47",
+        "gt_label": "malicious",
+        "abuse_score": 61,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "85.25.119.91",
+        "dest_ip_substituted": "213.199.52.47",
+        "gt_label": "malicious",
+        "abuse_score": 61,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "62.75.145.252",
+        "dest_ip_substituted": "152.53.191.128",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "62.75.145.252",
+        "dest_ip_substituted": "152.53.191.128",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "178.79.172.45",
+        "dest_ip_substituted": "45.147.249.81",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "178.79.172.45",
+        "dest_ip_substituted": "45.147.249.81",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "192.155.83.86",
+        "dest_ip_substituted": "65.49.1.138",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "192.155.83.86",
+        "dest_ip_substituted": "65.49.1.138",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "103.249.87.72",
+        "dest_ip_substituted": "103.249.84.242",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "185.66.41.19",
+        "dest_ip_substituted": "85.121.215.243",
+        "gt_label": "malicious",
+        "abuse_score": 82,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "208.97.148.181",
+        "dest_ip_substituted": "174.35.25.181",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "84.124.52.38",
+        "dest_ip_substituted": "5.182.83.231",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      },
+      {
+        "original_ip": "82.223.110.35",
+        "dest_ip_substituted": "34.175.118.185",
+        "gt_label": "malicious",
+        "abuse_score": 100,
+        "classified_malicious": true,
+        "is_correct": true
+      }
+    ]
+  },
+  "summary": {
+    "M-1_coverage_percent": 100.0,
+    "M-2_fidelity": 2.9078,
+    "validity_coverage_percent": 95.74
+  }
+}

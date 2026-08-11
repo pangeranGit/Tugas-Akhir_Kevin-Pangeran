@@ -1,0 +1,20 @@
+{
+  "total_alerts": 47,
+  "mapped_with_tactic": 47,
+  "mapped_with_technique": 47,
+  "tactic_coverage_pct": 100.0,
+  "technique_coverage_pct": 100.0,
+  "source_distribution": {
+    "layer2_classtype + layer3_malware_family": 18,
+    "layer1_metadata": 24,
+    "layer2_classtype + layer3_signature_pattern": 5
+  },
+  "technique_distribution": {
+    "T1071.001": 21,
+    "T1041": 24,
+    "T1071": 2
+  },
+  "timestamp": "2026-07-21T13:51:02.639199",
+  "input_file": "c2_alerts_enriched_abuseipdb.json",
+  "output_file": "c2_alerts_enriched_mitre.json"
+}

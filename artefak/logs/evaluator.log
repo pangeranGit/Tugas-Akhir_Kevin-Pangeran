@@ -1,0 +1,10 @@
+2026-07-20 20:25:38,391 [INFO] Loaded 47 alert dari /home/kali/ta-pipeline/output/enriched_alerts.json
+2026-07-20 20:25:38,416 [INFO] Ground truth: 561 entri (60 malicious, 501 legitimate)
+2026-07-20 20:25:38,420 [INFO] Hasil evaluasi disimpan ke: /home/kali/ta-pipeline/output/evaluation_results.json
+2026-07-21 14:18:06,692 [ERROR] File tidak ditemukan: /home/kali/ta-pipeline/output/enriched_alerts.json
+2026-07-21 14:19:28,763 [INFO] Loaded 47 alert dari /home/kali/ta-pipeline/output/enriched_alerts.json
+2026-07-21 14:19:28,784 [INFO] Ground truth: 561 entri (60 malicious, 501 legitimate)
+2026-07-21 14:19:28,788 [INFO] Hasil evaluasi disimpan ke: /home/kali/ta-pipeline/output/evaluation_results.json
+2026-07-21 14:21:06,360 [INFO] Loaded 47 alert dari /home/kali/ta-pipeline/output/enriched_alerts.json
+2026-07-21 14:21:06,378 [INFO] Ground truth: 561 entri (60 malicious, 501 legitimate)
+2026-07-21 14:21:06,383 [INFO] Hasil evaluasi disimpan ke: /home/kali/ta-pipeline/output/evaluation_results.json

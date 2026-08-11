@@ -1,0 +1,102 @@
+{
+  "103.249.87.72": {
+    "ipAddress": "103.249.87.72",
+    "isPublic": true,
+    "ipVersion": 4,
+    "isWhitelisted": false,
+    "abuseConfidenceScore": 0,
+    "countryCode": "MY",
+    "usageType": "Data Center/Web Hosting/Transit",
+    "isp": "Hosting Services",
+    "domain": "invision7.com",
+    "hostnames": [
+      "72so41.uylnorth.com"
+    ],
+    "isTor": false,
+    "totalReports": 0,
+    "numDistinctUsers": 0,
+    "lastReportedAt": "2021-03-22T16:40:54+00:00"
+  },
+  "103.4.18.170": {
+    "ipAddress": "103.4.18.170",
+    "isPublic": true,
+    "ipVersion": 4,
+    "isWhitelisted": false,
+    "abuseConfidenceScore": 0,
+    "countryCode": "AU",
+    "usageType": "Data Center/Web Hosting/Transit",
+    "isp": "Fluccs Australia",
+    "domain": "fluccs.com.au",
+    "hostnames": [],
+    "isTor": false,
+    "totalReports": 0,
+    "numDistinctUsers": 0,
+    "lastReportedAt": null
+  },
+  "109.169.66.107": {
+    "ipAddress": "109.169.66.107",
+    "isPublic": true,
+    "ipVersion": 4,
+    "isWhitelisted": false,
+    "abuseConfidenceScore": 0,
+    "countryCode": "GB",
+    "usageType": "Data Center/Web Hosting/Transit",
+    "isp": "Rapidswitch",
+    "domain": "rapidswitch.com",
+    "hostnames": [],
+    "isTor": false,
+    "totalReports": 0,
+    "numDistinctUsers": 0,
+    "lastReportedAt": "2023-09-20T00:23:30+00:00"
+  },
+  "139.59.33.202": {
+    "ipAddress": "139.59.33.202",
+    "isPublic": true,
+    "ipVersion": 4,
+    "isWhitelisted": false,
+    "abuseConfidenceScore": 0,
+    "countryCode": "IN",
+    "usageType": "Data Center/Web Hosting/Transit",
+    "isp": "DigitalOcean, LLC",
+    "domain": "digitalocean.com",
+    "hostnames": [],
+    "isTor": false,
+    "totalReports": 0,
+    "numDistinctUsers": 0,
+    "lastReportedAt": "2022-10-26T05:03:35+00:00"
+  },
+  "163.172.81.35": {
+    "ipAddress": "163.172.81.35",
+    "isPublic": true,
+    "ipVersion": 4,
+    "isWhitelisted": false,
+    "abuseConfidenceScore": 0,
+    "countryCode": "FR",
+    "usageType": "Data Center/Web Hosting/Transit",
+    "isp": "Scaleway Dedibox - Paris, France",
+    "domain": "scaleway.com",
+    "hostnames": [
+      "163-172-81-35.rev.poneytelecom.eu"
+    ],
+    "isTor": false,
+    "totalReports": 0,
+    "numDistinctUsers": 0,
+    "lastReportedAt": null
+  },
+  "178.79.172.45": {
+    "ipAddress": "178.79.172.45",
+    "isPublic": true,
+    "ipVersion": 4,
+    "isWhitelisted": false,
+    "abuseConfidenceScore": 0,
+    "countryCode": "GB",
+    "usageType": "Data Center/Web Hosting/Transit",
+    "isp": "Linode, LLC",
+    "domain": "linode.com",
+    "hostnames": [],
+    "isTor": false,
+    "totalReports": 0,
+    "numDistinctUsers": 0,
+    "lastReportedAt": null
+  }
+}

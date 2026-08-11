@@ -1,0 +1,18 @@
+{
+  "total_alerts": 47,
+  "unique_src_ips": 7,
+  "unique_dest_ips": 26,
+  "unique_signatures": 10,
+  "alerts_with_mitre": 24,
+  "category_distribution": {
+    "Malware Command and Control Activity Detected": 47
+  },
+  "malware_families": {
+    "Emotet": 15,
+    "Geodo": 15,
+    "Ramnit": 2,
+    "PoisonIvy": 1,
+    "njrat": 1,
+    "Bladabindi": 1
+  }
+}

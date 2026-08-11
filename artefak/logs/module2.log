@@ -1,0 +1,21 @@
+2026-07-20 15:43:48,454 [INFO] Loaded 47 alert dari /home/kali/ta-pipeline/output/c2_alerts_deduped.json
+2026-07-20 15:43:48,454 [INFO] Unique destination IPs: 26
+2026-07-20 15:43:48,454 [INFO] IPs perlu di-query: 26 (cached: 0)
+2026-07-20 15:44:42,675 [INFO] Cache disimpan ke: /home/kali/ta-pipeline/output/abuseipdb_cache.json
+2026-07-20 15:44:42,676 [INFO] [TIMING] AbuseIPDB: mean=1.116s per IP (n=26)
+2026-07-20 15:44:42,684 [INFO] Alert enriched disimpan ke: /home/kali/ta-pipeline/output/c2_alerts_enriched_abuseipdb.json
+2026-07-20 15:44:42,685 [INFO] Summary disimpan ke: /home/kali/ta-pipeline/output/module2_summary.json
+2026-07-21 13:39:37,286 [INFO] Loaded 47 alert dari /home/kali/ta-pipeline/output/c2_alerts_deduped.json
+2026-07-21 13:39:37,298 [INFO] Unique destination IPs: 26
+2026-07-21 13:39:37,298 [INFO] IPs perlu di-query: 26 (cached: 0)
+2026-07-21 13:40:35,658 [INFO] Cache disimpan ke: /home/kali/ta-pipeline/output/abuseipdb_cache.json
+2026-07-21 13:40:35,659 [INFO] [TIMING] AbuseIPDB: mean=1.266s per IP (n=26)
+2026-07-21 13:40:35,671 [INFO] Alert enriched disimpan ke: /home/kali/ta-pipeline/output/c2_alerts_enriched_abuseipdb.json
+2026-07-21 13:40:35,672 [INFO] Summary disimpan ke: /home/kali/ta-pipeline/output/module2_summary.json
+2026-07-23 11:46:43,151 [INFO] Loaded 47 alert dari /home/kali/ta-pipeline/output/c2_alerts_deduped.json
+2026-07-23 11:46:43,163 [INFO] Unique destination IPs: 26
+2026-07-23 11:46:43,164 [INFO] IPs perlu di-query: 26 (cached: 0)
+2026-07-23 11:47:42,903 [INFO] Cache disimpan ke: /home/kali/ta-pipeline/output/abuseipdb_cache.json
+2026-07-23 11:47:42,903 [INFO] [TIMING] AbuseIPDB: mean=1.324s per IP (n=26)
+2026-07-23 11:47:42,918 [INFO] Alert enriched disimpan ke: /home/kali/ta-pipeline/output/c2_alerts_enriched_abuseipdb.json
+2026-07-23 11:47:42,919 [INFO] Summary disimpan ke: /home/kali/ta-pipeline/output/module2_summary.json

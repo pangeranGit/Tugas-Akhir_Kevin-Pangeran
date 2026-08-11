@@ -1,0 +1,39 @@
+{
+  "stage_durations_seconds": {
+    "substitusi_ip": 0.001,
+    "modul2_abuseipdb_enrichment": 56.353,
+    "modul3_mitre_mapping": 0.013,
+    "modul4_llm_summarization": 338.617,
+    "modul5_finalisasi": 0.02,
+    "evaluator": 0.064
+  },
+  "total_pipeline_duration_seconds": 395.069012,
+  "abuseipdb_query_latency": {
+    "ip_queried": 26,
+    "mean_seconds": 1.139,
+    "min_seconds": 0.857,
+    "max_seconds": 1.653,
+    "note": "Durasi query API murni, tidak termasuk jeda rate limit antar request."
+  },
+  "llm_latency_per_alert": {
+    "n": 47,
+    "mean": 4.173,
+    "median": 3.965,
+    "stdev": 0.736,
+    "min": 3.136,
+    "max": 6.031
+  },
+  "artificial_delay_estimate": {
+    "gemini_sleep_seconds": 138,
+    "abuseipdb_sleep_seconds": 25.0,
+    "note": "Jeda artifisial berasal dari kebijakan rate limit layanan API gratis, bukan beban komputasi pipeline."
+  },
+  "effective_processing": {
+    "total_wall_clock_seconds": 395.069,
+    "total_artificial_sleep_seconds": 163.0,
+    "effective_total_seconds": 232.069,
+    "effective_per_alert_seconds": 4.938,
+    "alerts_processed": 47,
+    "throughput_alerts_per_minute": 7.14
+  }
+}

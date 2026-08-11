@@ -1,0 +1,371 @@
+{
+  "injection_date": "2026-05-22T11:53:02.543731",
+  "total_pcap_files": 45,
+  "total_alerts": 440581,
+  "total_eve_lines": 9469192,
+  "total_time_seconds": 5296.2,
+  "files_with_alerts": 45,
+  "files_zero_alerts": 0,
+  "per_file_stats": [
+    {
+      "file": "Ammyy2.pcap",
+      "size_mb": 239.38,
+      "alerts": 102903,
+      "time_seconds": 406.7,
+      "status": "OK",
+      "cumulative_alerts": 102903
+    },
+    {
+      "file": "Ammyy3.pcap",
+      "size_mb": 362.81,
+      "alerts": 161133,
+      "time_seconds": 457.1,
+      "status": "OK",
+      "cumulative_alerts": 264036
+    },
+    {
+      "file": "AutoIt.pcap",
+      "size_mb": 16.04,
+      "alerts": 43,
+      "time_seconds": 136.2,
+      "status": "OK",
+      "cumulative_alerts": 264079
+    },
+    {
+      "file": "ChChes.pcap",
+      "size_mb": 0.07,
+      "alerts": 424,
+      "time_seconds": 117.9,
+      "status": "OK",
+      "cumulative_alerts": 264503
+    },
+    {
+      "file": "Conficker91.pcap",
+      "size_mb": 26.45,
+      "alerts": 3999,
+      "time_seconds": 122.7,
+      "status": "OK",
+      "cumulative_alerts": 268502
+    },
+    {
+      "file": "Dridex3221.pcap",
+      "size_mb": 308.7,
+      "alerts": 557,
+      "time_seconds": 255.0,
+      "status": "OK",
+      "cumulative_alerts": 269059
+    },
+    {
+      "file": "Dridex3261.pcap",
+      "size_mb": 192.83,
+      "alerts": 498,
+      "time_seconds": 257.9,
+      "status": "OK",
+      "cumulative_alerts": 269557
+    },
+    {
+      "file": "Emotet2761.pcap",
+      "size_mb": 70.74,
+      "alerts": 78298,
+      "time_seconds": 149.1,
+      "status": "OK",
+      "cumulative_alerts": 347855
+    },
+    {
+      "file": "GRIFFON16.pcap",
+      "size_mb": 0.02,
+      "alerts": 32,
+      "time_seconds": 108.8,
+      "status": "OK",
+      "cumulative_alerts": 347887
+    },
+    {
+      "file": "ImminentMonitor2.pcap",
+      "size_mb": 51.1,
+      "alerts": 120,
+      "time_seconds": 114.1,
+      "status": "OK",
+      "cumulative_alerts": 348007
+    },
+    {
+      "file": "ImminentMonitor4.pcap",
+      "size_mb": 0.13,
+      "alerts": 131,
+      "time_seconds": 97.8,
+      "status": "OK",
+      "cumulative_alerts": 348138
+    },
+    {
+      "file": "MagicHound.pcap",
+      "size_mb": 352.96,
+      "alerts": 48275,
+      "time_seconds": 374.8,
+      "status": "OK",
+      "cumulative_alerts": 396413
+    },
+    {
+      "file": "Maze.pcap",
+      "size_mb": 0.09,
+      "alerts": 456,
+      "time_seconds": 81.7,
+      "status": "OK",
+      "cumulative_alerts": 396869
+    },
+    {
+      "file": "Mivast&Sakula1.pcap",
+      "size_mb": 1.12,
+      "alerts": 596,
+      "time_seconds": 67.7,
+      "status": "OK",
+      "cumulative_alerts": 397465
+    },
+    {
+      "file": "Mivast&Sakula2.pcap",
+      "size_mb": 0.72,
+      "alerts": 597,
+      "time_seconds": 88.3,
+      "status": "OK",
+      "cumulative_alerts": 398062
+    },
+    {
+      "file": "NanoCore2.pcap",
+      "size_mb": 0.07,
+      "alerts": 329,
+      "time_seconds": 91.7,
+      "status": "OK",
+      "cumulative_alerts": 398391
+    },
+    {
+      "file": "PlugX1.pcap",
+      "size_mb": 0.05,
+      "alerts": 436,
+      "time_seconds": 81.3,
+      "status": "OK",
+      "cumulative_alerts": 398827
+    },
+    {
+      "file": "Ramnit.pcap",
+      "size_mb": 3.15,
+      "alerts": 488,
+      "time_seconds": 94.8,
+      "status": "OK",
+      "cumulative_alerts": 399315
+    },
+    {
+      "file": "Remcos1.pcap",
+      "size_mb": 1.04,
+      "alerts": 154,
+      "time_seconds": 84.7,
+      "status": "OK",
+      "cumulative_alerts": 399469
+    },
+    {
+      "file": "Remcos2.pcap",
+      "size_mb": 0.2,
+      "alerts": 448,
+      "time_seconds": 82.8,
+      "status": "OK",
+      "cumulative_alerts": 399917
+    },
+    {
+      "file": "Sogou.pcap",
+      "size_mb": 17.99,
+      "alerts": 3638,
+      "time_seconds": 81.5,
+      "status": "OK",
+      "cumulative_alerts": 403555
+    },
+    {
+      "file": "Virut1.pcap",
+      "size_mb": 29.51,
+      "alerts": 1096,
+      "time_seconds": 60.2,
+      "status": "OK",
+      "cumulative_alerts": 404651
+    },
+    {
+      "file": "Virut2.pcap",
+      "size_mb": 109.26,
+      "alerts": 6904,
+      "time_seconds": 66.5,
+      "status": "OK",
+      "cumulative_alerts": 411555
+    },
+    {
+      "file": "Zeus.pcap",
+      "size_mb": 133.79,
+      "alerts": 6079,
+      "time_seconds": 179.3,
+      "status": "OK",
+      "cumulative_alerts": 417634
+    },
+    {
+      "file": "apt_strongpity1.pcap",
+      "size_mb": 52.81,
+      "alerts": 192,
+      "time_seconds": 57.7,
+      "status": "OK",
+      "cumulative_alerts": 417826
+    },
+    {
+      "file": "bitsadmin.pcap",
+      "size_mb": 0.1,
+      "alerts": 90,
+      "time_seconds": 162.9,
+      "status": "OK",
+      "cumulative_alerts": 417916
+    },
+    {
+      "file": "carbank.pcap",
+      "size_mb": 0.04,
+      "alerts": 101,
+      "time_seconds": 102.9,
+      "status": "OK",
+      "cumulative_alerts": 418017
+    },
+    {
+      "file": "cobaltstrike1.pcap",
+      "size_mb": 0.09,
+      "alerts": 436,
+      "time_seconds": 60.7,
+      "status": "OK",
+      "cumulative_alerts": 418453
+    },
+    {
+      "file": "cobaltstrike2.pcap",
+      "size_mb": 0.61,
+      "alerts": 433,
+      "time_seconds": 44.2,
+      "status": "OK",
+      "cumulative_alerts": 418886
+    },
+    {
+      "file": "ctu_normal_20.pcap",
+      "size_mb": 269.33,
+      "alerts": 809,
+      "time_seconds": 43.5,
+      "status": "OK",
+      "cumulative_alerts": 419695
+    },
+    {
+      "file": "ctu_normal_21.pcap",
+      "size_mb": 297.2,
+      "alerts": 1521,
+      "time_seconds": 45.5,
+      "status": "OK",
+      "cumulative_alerts": 421216
+    },
+    {
+      "file": "ctu_normal_22.pcap",
+      "size_mb": 1636.7,
+      "alerts": 16491,
+      "time_seconds": 128.8,
+      "status": "OK",
+      "cumulative_alerts": 437707
+    },
+    {
+      "file": "empire1.pcap",
+      "size_mb": 0.93,
+      "alerts": 304,
+      "time_seconds": 35.8,
+      "status": "OK",
+      "cumulative_alerts": 438011
+    },
+    {
+      "file": "empire4.pcap",
+      "size_mb": 0.04,
+      "alerts": 151,
+      "time_seconds": 64.2,
+      "status": "OK",
+      "cumulative_alerts": 438162
+    },
+    {
+      "file": "empire5.pcap",
+      "size_mb": 0.21,
+      "alerts": 363,
+      "time_seconds": 85.7,
+      "status": "OK",
+      "cumulative_alerts": 438525
+    },
+    {
+      "file": "empire6.pcap",
+      "size_mb": 0.24,
+      "alerts": 421,
+      "time_seconds": 45.3,
+      "status": "OK",
+      "cumulative_alerts": 438946
+    },
+    {
+      "file": "empire7.pcap",
+      "size_mb": 0.04,
+      "alerts": 215,
+      "time_seconds": 62.9,
+      "status": "OK",
+      "cumulative_alerts": 439161
+    },
+    {
+      "file": "miniduke1.pcap",
+      "size_mb": 4.98,
+      "alerts": 34,
+      "time_seconds": 86.1,
+      "status": "OK",
+      "cumulative_alerts": 439195
+    },
+    {
+      "file": "njRAT1.pcap",
+      "size_mb": 130.63,
+      "alerts": 153,
+      "time_seconds": 89.0,
+      "status": "OK",
+      "cumulative_alerts": 439348
+    },
+    {
+      "file": "njRAT3.pcap",
+      "size_mb": 305.32,
+      "alerts": 7,
+      "time_seconds": 109.7,
+      "status": "OK",
+      "cumulative_alerts": 439355
+    },
+    {
+      "file": "onionduke1.pcap",
+      "size_mb": 0.11,
+      "alerts": 429,
+      "time_seconds": 91.7,
+      "status": "OK",
+      "cumulative_alerts": 439784
+    },
+    {
+      "file": "poisonivy1.pcap",
+      "size_mb": 0.13,
+      "alerts": 337,
+      "time_seconds": 70.5,
+      "status": "OK",
+      "cumulative_alerts": 440121
+    },
+    {
+      "file": "zebrocy1.pcap",
+      "size_mb": 4.13,
+      "alerts": 156,
+      "time_seconds": 84.4,
+      "status": "OK",
+      "cumulative_alerts": 440277
+    },
+    {
+      "file": "zebrocy2.pcap",
+      "size_mb": 0.04,
+      "alerts": 151,
+      "time_seconds": 84.2,
+      "status": "OK",
+      "cumulative_alerts": 440428
+    },
+    {
+      "file": "zebrocy3.pcap",
+      "size_mb": 0.02,
+      "alerts": 153,
+      "time_seconds": 81.9,
+      "status": "OK",
+      "cumulative_alerts": 440581
+    }
+  ]
+}

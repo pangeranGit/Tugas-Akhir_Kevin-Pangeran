@@ -1,0 +1,374 @@
+{
+  "timestamp": "2026-05-29T13:44:46.424493",
+  "source_file": "/home/kali/ta-pipeline/output/c2_alerts_deduped.json",
+  "target_file": "/home/kali/ta-pipeline/output/c2_alerts_deduped_substituted.json",
+  "mapping_file": "/home/kali/ta-pipeline/output/ip_substitution_draft.json",
+  "total_alerts": 47,
+  "alerts_affected": 47,
+  "alerts_unchanged": 0,
+  "total_substitutions": 47,
+  "unique_old_ips_in_mapping": 26,
+  "unique_old_ips_replaced": 26,
+  "unique_dest_ips_before": 26,
+  "unique_dest_ips_after": 26,
+  "unused_mappings": [],
+  "replacement_counts_per_old_ip": {
+    "3.223.115.185": 6,
+    "82.165.142.107": 2,
+    "103.4.18.170": 2,
+    "46.163.78.94": 2,
+    "81.88.24.211": 2,
+    "45.79.186.178": 2,
+    "87.106.77.193": 2,
+    "163.172.81.35": 2,
+    "109.169.66.107": 2,
+    "85.25.119.91": 2,
+    "62.75.145.252": 2,
+    "178.79.172.45": 2,
+    "192.155.83.86": 2,
+    "95.110.231.207": 2,
+    "139.59.33.202": 2,
+    "66.175.215.16": 2,
+    "204.11.56.48": 2,
+    "91.220.62.30": 1,
+    "204.95.99.221": 1,
+    "103.249.87.72": 1,
+    "186.145.214.199": 1,
+    "185.239.226.65": 1,
+    "185.66.41.19": 1,
+    "208.97.148.181": 1,
+    "84.124.52.38": 1,
+    "82.223.110.35": 1
+  },
+  "substitution_log": [
+    {
+      "alert_index": 0,
+      "opensearch_id": "5hnhTZ4BdD8__PxwZs30",
+      "signature": "ET MALWARE Win32/Ramnit Checkin",
+      "old_dest_ip": "91.220.62.30",
+      "new_dest_ip": "45.148.10.147"
+    },
+    {
+      "alert_index": 1,
+      "opensearch_id": "4RnhTZ4BdD8__PxwZs30",
+      "signature": "ET MALWARE Win32/Ramnit Checkin",
+      "old_dest_ip": "204.95.99.221",
+      "new_dest_ip": "65.49.139.223"
+    },
+    {
+      "alert_index": 2,
+      "opensearch_id": "yBjMTZ4BdD8__Pxwrjej",
+      "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+      "old_dest_ip": "82.165.142.107",
+      "new_dest_ip": "172.110.219.251"
+    },
+    {
+      "alert_index": 3,
+      "opensearch_id": "xxjMTZ4BdD8__Pxwrjej",
+      "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+      "old_dest_ip": "82.165.142.107",
+      "new_dest_ip": "172.110.219.251"
+    },
+    {
+      "alert_index": 4,
+      "opensearch_id": "7RjMTZ4BdD8__Pxwrjej",
+      "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+      "old_dest_ip": "103.4.18.170",
+      "new_dest_ip": "223.27.18.80"
+    },
+    {
+      "alert_index": 5,
+      "opensearch_id": "xBjMTZ4BdD8__Pxwrjej",
+      "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+      "old_dest_ip": "103.4.18.170",
+      "new_dest_ip": "223.27.18.80"
+    },
+    {
+      "alert_index": 6,
+      "opensearch_id": "8RjMTZ4BdD8__PxwujeH",
+      "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+      "old_dest_ip": "46.163.78.94",
+      "new_dest_ip": "173.249.52.138"
+    },
+    {
+      "alert_index": 7,
+      "opensearch_id": "7hjMTZ4BdD8__Pxwrjej",
+      "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+      "old_dest_ip": "46.163.78.94",
+      "new_dest_ip": "173.249.52.138"
+    },
+    {
+      "alert_index": 8,
+      "opensearch_id": "vhjMTZ4BdD8__Pxwrjej",
+      "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+      "old_dest_ip": "81.88.24.211",
+      "new_dest_ip": "185.68.184.46"
+    },
+    {
+      "alert_index": 9,
+      "opensearch_id": "wRjMTZ4BdD8__Pxwrjej",
+      "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+      "old_dest_ip": "81.88.24.211",
+      "new_dest_ip": "185.68.184.46"
+    },
+    {
+      "alert_index": 10,
+      "opensearch_id": "yxjMTZ4BdD8__Pxwrjej",
+      "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+      "old_dest_ip": "45.79.186.178",
+      "new_dest_ip": "184.105.247.242"
+    },
+    {
+      "alert_index": 11,
+      "opensearch_id": "yhjMTZ4BdD8__Pxwrjej",
+      "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+      "old_dest_ip": "45.79.186.178",
+      "new_dest_ip": "184.105.247.242"
+    },
+    {
+      "alert_index": 12,
+      "opensearch_id": "vxjMTZ4BdD8__Pxwrjej",
+      "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+      "old_dest_ip": "87.106.77.193",
+      "new_dest_ip": "176.65.132.149"
+    },
+    {
+      "alert_index": 13,
+      "opensearch_id": "wBjMTZ4BdD8__Pxwrjej",
+      "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+      "old_dest_ip": "87.106.77.193",
+      "new_dest_ip": "176.65.132.149"
+    },
+    {
+      "alert_index": 14,
+      "opensearch_id": "7xjMTZ4BdD8__Pxwrjej",
+      "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+      "old_dest_ip": "163.172.81.35",
+      "new_dest_ip": "62.210.89.150"
+    },
+    {
+      "alert_index": 15,
+      "opensearch_id": "8BjMTZ4BdD8__PxwujeH",
+      "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+      "old_dest_ip": "163.172.81.35",
+      "new_dest_ip": "62.210.89.150"
+    },
+    {
+      "alert_index": 16,
+      "opensearch_id": "wxjMTZ4BdD8__Pxwrjej",
+      "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+      "old_dest_ip": "109.169.66.107",
+      "new_dest_ip": "139.59.184.99"
+    },
+    {
+      "alert_index": 17,
+      "opensearch_id": "whjMTZ4BdD8__Pxwrjej",
+      "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+      "old_dest_ip": "109.169.66.107",
+      "new_dest_ip": "139.59.184.99"
+    },
+    {
+      "alert_index": 18,
+      "opensearch_id": "0BjMTZ4BdD8__Pxwrjej",
+      "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+      "old_dest_ip": "85.25.119.91",
+      "new_dest_ip": "213.199.52.47"
+    },
+    {
+      "alert_index": 19,
+      "opensearch_id": "0RjMTZ4BdD8__Pxwrjej",
+      "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+      "old_dest_ip": "85.25.119.91",
+      "new_dest_ip": "213.199.52.47"
+    },
+    {
+      "alert_index": 20,
+      "opensearch_id": "8hjMTZ4BdD8__PxwujeH",
+      "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+      "old_dest_ip": "62.75.145.252",
+      "new_dest_ip": "152.53.191.128"
+    },
+    {
+      "alert_index": 21,
+      "opensearch_id": "8xjMTZ4BdD8__PxwujeH",
+      "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+      "old_dest_ip": "62.75.145.252",
+      "new_dest_ip": "152.53.191.128"
+    },
+    {
+      "alert_index": 22,
+      "opensearch_id": "9xjMTZ4BdD8__PxwujeH",
+      "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+      "old_dest_ip": "178.79.172.45",
+      "new_dest_ip": "45.147.249.81"
+    },
+    {
+      "alert_index": 23,
+      "opensearch_id": "9hjMTZ4BdD8__PxwujeH",
+      "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+      "old_dest_ip": "178.79.172.45",
+      "new_dest_ip": "45.147.249.81"
+    },
+    {
+      "alert_index": 24,
+      "opensearch_id": "xRjMTZ4BdD8__Pxwrjej",
+      "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+      "old_dest_ip": "192.155.83.86",
+      "new_dest_ip": "65.49.1.138"
+    },
+    {
+      "alert_index": 25,
+      "opensearch_id": "xhjMTZ4BdD8__Pxwrjej",
+      "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+      "old_dest_ip": "192.155.83.86",
+      "new_dest_ip": "65.49.1.138"
+    },
+    {
+      "alert_index": 26,
+      "opensearch_id": "0hjMTZ4BdD8__Pxwrjej",
+      "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+      "old_dest_ip": "95.110.231.207",
+      "new_dest_ip": "136.248.242.166"
+    },
+    {
+      "alert_index": 27,
+      "opensearch_id": "0xjMTZ4BdD8__Pxwrjej",
+      "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+      "old_dest_ip": "95.110.231.207",
+      "new_dest_ip": "136.248.242.166"
+    },
+    {
+      "alert_index": 28,
+      "opensearch_id": "-RjMTZ4BdD8__PxwujeH",
+      "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+      "old_dest_ip": "139.59.33.202",
+      "new_dest_ip": "20.244.18.126"
+    },
+    {
+      "alert_index": 29,
+      "opensearch_id": "-hjMTZ4BdD8__PxwujeH",
+      "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+      "old_dest_ip": "139.59.33.202",
+      "new_dest_ip": "20.244.18.126"
+    },
+    {
+      "alert_index": 30,
+      "opensearch_id": "zhjMTZ4BdD8__Pxwrjej",
+      "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+      "old_dest_ip": "66.175.215.16",
+      "new_dest_ip": "207.244.250.66"
+    },
+    {
+      "alert_index": 31,
+      "opensearch_id": "yRjMTZ4BdD8__Pxwrjej",
+      "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+      "old_dest_ip": "66.175.215.16",
+      "new_dest_ip": "207.244.250.66"
+    },
+    {
+      "alert_index": 32,
+      "opensearch_id": "NxoDTp4BdD8__PxwQGPr",
+      "signature": "ET RETIRED PoisonIvy HTTP CnC Beacon",
+      "old_dest_ip": "103.249.87.72",
+      "new_dest_ip": "103.249.84.242"
+    },
+    {
+      "alert_index": 33,
+      "opensearch_id": "ORr-TZ4BdD8__PxwYGAU",
+      "signature": "ET MALWARE Generic njRAT/Bladabindi CnC Activity (ll)",
+      "old_dest_ip": "186.145.214.199",
+      "new_dest_ip": "152.200.181.42"
+    },
+    {
+      "alert_index": 34,
+      "opensearch_id": "3BnfTZ4BdD8__Pxw3s1_",
+      "signature": "ET MALWARE APT Mustang Panda Payload - CnC Checkin",
+      "old_dest_ip": "185.239.226.65",
+      "new_dest_ip": "101.36.111.155"
+    },
+    {
+      "alert_index": 35,
+      "opensearch_id": "3xoBTp4BdD8__Pxw3WDw",
+      "signature": "ET MALWARE Gozi/BlackNet Checkin",
+      "old_dest_ip": "185.66.41.19",
+      "new_dest_ip": "85.121.215.243"
+    },
+    {
+      "alert_index": 36,
+      "opensearch_id": "yxoBTp4BdD8__Pxw3WCD",
+      "signature": "ET MALWARE Gozi/BlackNet Checkin",
+      "old_dest_ip": "208.97.148.181",
+      "new_dest_ip": "174.35.25.181"
+    },
+    {
+      "alert_index": 37,
+      "opensearch_id": "8BoBTp4BdD8__Pxw3WDw",
+      "signature": "ET MALWARE Gozi/BlackNet Checkin",
+      "old_dest_ip": "84.124.52.38",
+      "new_dest_ip": "5.182.83.231"
+    },
+    {
+      "alert_index": 38,
+      "opensearch_id": "hRoBTp4BdD8__Pxw32Ey",
+      "signature": "ET MALWARE Gozi/BlackNet Checkin",
+      "old_dest_ip": "82.223.110.35",
+      "new_dest_ip": "34.175.118.185"
+    },
+    {
+      "alert_index": 39,
+      "opensearch_id": "WhnbTZ4BdD8__Pxwhsa2",
+      "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 1",
+      "old_dest_ip": "204.11.56.48",
+      "new_dest_ip": "198.46.182.206"
+    },
+    {
+      "alert_index": 40,
+      "opensearch_id": "6BnbTZ4BdD8__Pxwh8bc",
+      "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 1",
+      "old_dest_ip": "3.223.115.185",
+      "new_dest_ip": "50.116.72.133"
+    },
+    {
+      "alert_index": 41,
+      "opensearch_id": "CRnbTZ4BdD8__PxwiMcn",
+      "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 2",
+      "old_dest_ip": "3.223.115.185",
+      "new_dest_ip": "50.116.72.133"
+    },
+    {
+      "alert_index": 42,
+      "opensearch_id": "EhnbTZ4BdD8__PxwiMcn",
+      "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 3",
+      "old_dest_ip": "3.223.115.185",
+      "new_dest_ip": "50.116.72.133"
+    },
+    {
+      "alert_index": 43,
+      "opensearch_id": "qxncTZ4BdD8__Pxw2shP",
+      "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 1",
+      "old_dest_ip": "204.11.56.48",
+      "new_dest_ip": "198.46.182.206"
+    },
+    {
+      "alert_index": 44,
+      "opensearch_id": "nxncTZ4BdD8__Pxw2shP",
+      "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 1",
+      "old_dest_ip": "3.223.115.185",
+      "new_dest_ip": "50.116.72.133"
+    },
+    {
+      "alert_index": 45,
+      "opensearch_id": "2hncTZ4BdD8__Pxw2siZ",
+      "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 2",
+      "old_dest_ip": "3.223.115.185",
+      "new_dest_ip": "50.116.72.133"
+    },
+    {
+      "alert_index": 46,
+      "opensearch_id": "BBncTZ4BdD8__Pxw2sno",
+      "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 3",
+      "old_dest_ip": "3.223.115.185",
+      "new_dest_ip": "50.116.72.133"
+    }
+  ]
+}

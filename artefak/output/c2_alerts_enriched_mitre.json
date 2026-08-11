@@ -1,0 +1,3263 @@
+[
+  {
+    "opensearch_id": "5hnhTZ4BdD8__PxwZs30",
+    "timestamp": "1970-01-01T07:05:06.051811+0700",
+    "src_ip": "192.168.1.116",
+    "dest_ip": "91.220.62.30",
+    "src_port": "49158",
+    "dest_port": "443",
+    "proto": "TCP",
+    "signature": "ET MALWARE Win32/Ramnit Checkin",
+    "signature_id": "2018558",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [],
+    "mitre_technique_id": [],
+    "malware_family": [
+      "Ramnit"
+    ],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE Win32/Ramnit Checkin",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Noisypeak Sarl",
+      "domain": "noisypeak.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "NL",
+      "countryName": "Netherlands",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0011"
+      ],
+      "tactic_names": [
+        "Command and Control"
+      ],
+      "technique_ids": [
+        "T1071.001"
+      ],
+      "technique_details": [
+        {
+          "id": "T1071.001",
+          "name": "Web Protocols"
+        }
+      ],
+      "mapping_source": "layer2_classtype + layer3_malware_family",
+      "has_original_mitre": false,
+      "software_id": "S0185",
+      "malware_matched": "Ramnit",
+      "reference_url": "https://attack.mitre.org/software/S0185/"
+    }
+  },
+  {
+    "opensearch_id": "4RnhTZ4BdD8__PxwZs30",
+    "timestamp": "1970-01-01T07:05:56.175226+0700",
+    "src_ip": "192.168.1.116",
+    "dest_ip": "204.95.99.221",
+    "src_port": "49161",
+    "dest_port": "443",
+    "proto": "TCP",
+    "signature": "ET MALWARE Win32/Ramnit Checkin",
+    "signature_id": "2018558",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [],
+    "mitre_technique_id": [],
+    "malware_family": [
+      "Ramnit"
+    ],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE Win32/Ramnit Checkin",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Microsoft Corporation",
+      "domain": "microsoft.com",
+      "usageType": "Fixed Line ISP",
+      "countryCode": "US",
+      "countryName": "United States of America",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0011"
+      ],
+      "tactic_names": [
+        "Command and Control"
+      ],
+      "technique_ids": [
+        "T1071.001"
+      ],
+      "technique_details": [
+        {
+          "id": "T1071.001",
+          "name": "Web Protocols"
+        }
+      ],
+      "mapping_source": "layer2_classtype + layer3_malware_family",
+      "has_original_mitre": false,
+      "software_id": "S0185",
+      "malware_matched": "Ramnit",
+      "reference_url": "https://attack.mitre.org/software/S0185/"
+    }
+  },
+  {
+    "opensearch_id": "yBjMTZ4BdD8__Pxwrjej",
+    "timestamp": "1970-01-01T07:12:01.717945+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "82.165.142.107",
+    "src_port": "49158",
+    "dest_port": "443",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+    "signature_id": "2024272",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [],
+    "mitre_technique_id": [],
+    "malware_family": [
+      "Emotet",
+      "Geodo"
+    ],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32.Geodo/Emotet Checkin",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "IONOS SE",
+      "domain": "ionos.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "ES",
+      "countryName": "Spain",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0011"
+      ],
+      "tactic_names": [
+        "Command and Control"
+      ],
+      "technique_ids": [
+        "T1071.001"
+      ],
+      "technique_details": [
+        {
+          "id": "T1071.001",
+          "name": "Web Protocols"
+        }
+      ],
+      "mapping_source": "layer2_classtype + layer3_malware_family",
+      "has_original_mitre": false,
+      "software_id": "S0367",
+      "malware_matched": "Emotet",
+      "reference_url": "https://attack.mitre.org/software/S0367/"
+    }
+  },
+  {
+    "opensearch_id": "xxjMTZ4BdD8__Pxwrjej",
+    "timestamp": "1970-01-01T07:12:01.717945+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "82.165.142.107",
+    "src_port": "49158",
+    "dest_port": "443",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+    "signature_id": "2024274",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [
+      "TA0010"
+    ],
+    "mitre_technique_id": [
+      "T1041"
+    ],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32/Emotet CnC Beacon 1",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "IONOS SE",
+      "domain": "ionos.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "ES",
+      "countryName": "Spain",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0010"
+      ],
+      "tactic_names": [
+        "Exfiltration"
+      ],
+      "technique_ids": [
+        "T1041"
+      ],
+      "technique_details": [
+        {
+          "id": "T1041",
+          "name": "From rule metadata"
+        }
+      ],
+      "mapping_source": "layer1_metadata",
+      "has_original_mitre": true
+    }
+  },
+  {
+    "opensearch_id": "7RjMTZ4BdD8__Pxwrjej",
+    "timestamp": "1970-01-01T07:12:36.845832+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "103.4.18.170",
+    "src_port": "49159",
+    "dest_port": "443",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+    "signature_id": "2024274",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [
+      "TA0010"
+    ],
+    "mitre_technique_id": [
+      "T1041"
+    ],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32/Emotet CnC Beacon 1",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Fluccs Australia",
+      "domain": "fluccs.com.au",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0010"
+      ],
+      "tactic_names": [
+        "Exfiltration"
+      ],
+      "technique_ids": [
+        "T1041"
+      ],
+      "technique_details": [
+        {
+          "id": "T1041",
+          "name": "From rule metadata"
+        }
+      ],
+      "mapping_source": "layer1_metadata",
+      "has_original_mitre": true
+    }
+  },
+  {
+    "opensearch_id": "xBjMTZ4BdD8__Pxwrjej",
+    "timestamp": "1970-01-01T07:12:36.845832+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "103.4.18.170",
+    "src_port": "49159",
+    "dest_port": "443",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+    "signature_id": "2024272",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [],
+    "mitre_technique_id": [],
+    "malware_family": [
+      "Emotet",
+      "Geodo"
+    ],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32.Geodo/Emotet Checkin",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Fluccs Australia",
+      "domain": "fluccs.com.au",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "AU",
+      "countryName": "Australia",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0011"
+      ],
+      "tactic_names": [
+        "Command and Control"
+      ],
+      "technique_ids": [
+        "T1071.001"
+      ],
+      "technique_details": [
+        {
+          "id": "T1071.001",
+          "name": "Web Protocols"
+        }
+      ],
+      "mapping_source": "layer2_classtype + layer3_malware_family",
+      "has_original_mitre": false,
+      "software_id": "S0367",
+      "malware_matched": "Emotet",
+      "reference_url": "https://attack.mitre.org/software/S0367/"
+    }
+  },
+  {
+    "opensearch_id": "8RjMTZ4BdD8__PxwujeH",
+    "timestamp": "1970-01-01T07:13:11.315422+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "46.163.78.94",
+    "src_port": "49160",
+    "dest_port": "443",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+    "signature_id": "2024274",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [
+      "TA0010"
+    ],
+    "mitre_technique_id": [
+      "T1041"
+    ],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32/Emotet CnC Beacon 1",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Host Europe GmbH",
+      "domain": "hosteurope.de",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "FR",
+      "countryName": "France",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0010"
+      ],
+      "tactic_names": [
+        "Exfiltration"
+      ],
+      "technique_ids": [
+        "T1041"
+      ],
+      "technique_details": [
+        {
+          "id": "T1041",
+          "name": "From rule metadata"
+        }
+      ],
+      "mapping_source": "layer1_metadata",
+      "has_original_mitre": true
+    }
+  },
+  {
+    "opensearch_id": "7hjMTZ4BdD8__Pxwrjej",
+    "timestamp": "1970-01-01T07:13:11.315422+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "46.163.78.94",
+    "src_port": "49160",
+    "dest_port": "443",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+    "signature_id": "2024272",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [],
+    "mitre_technique_id": [],
+    "malware_family": [
+      "Emotet",
+      "Geodo"
+    ],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32.Geodo/Emotet Checkin",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Host Europe GmbH",
+      "domain": "hosteurope.de",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "FR",
+      "countryName": "France",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0011"
+      ],
+      "tactic_names": [
+        "Command and Control"
+      ],
+      "technique_ids": [
+        "T1071.001"
+      ],
+      "technique_details": [
+        {
+          "id": "T1071.001",
+          "name": "Web Protocols"
+        }
+      ],
+      "mapping_source": "layer2_classtype + layer3_malware_family",
+      "has_original_mitre": false,
+      "software_id": "S0367",
+      "malware_matched": "Emotet",
+      "reference_url": "https://attack.mitre.org/software/S0367/"
+    }
+  },
+  {
+    "opensearch_id": "vhjMTZ4BdD8__Pxwrjej",
+    "timestamp": "1970-01-01T07:13:45.791598+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "81.88.24.211",
+    "src_port": "49161",
+    "dest_port": "443",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+    "signature_id": "2024272",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [],
+    "mitre_technique_id": [],
+    "malware_family": [
+      "Emotet",
+      "Geodo"
+    ],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32.Geodo/Emotet Checkin",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "dogado GmbH",
+      "domain": "dogado.de",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "DE",
+      "countryName": "Germany",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0011"
+      ],
+      "tactic_names": [
+        "Command and Control"
+      ],
+      "technique_ids": [
+        "T1071.001"
+      ],
+      "technique_details": [
+        {
+          "id": "T1071.001",
+          "name": "Web Protocols"
+        }
+      ],
+      "mapping_source": "layer2_classtype + layer3_malware_family",
+      "has_original_mitre": false,
+      "software_id": "S0367",
+      "malware_matched": "Emotet",
+      "reference_url": "https://attack.mitre.org/software/S0367/"
+    }
+  },
+  {
+    "opensearch_id": "wRjMTZ4BdD8__Pxwrjej",
+    "timestamp": "1970-01-01T07:13:45.791598+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "81.88.24.211",
+    "src_port": "49161",
+    "dest_port": "443",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+    "signature_id": "2024274",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [
+      "TA0010"
+    ],
+    "mitre_technique_id": [
+      "T1041"
+    ],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32/Emotet CnC Beacon 1",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "dogado GmbH",
+      "domain": "dogado.de",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "DE",
+      "countryName": "Germany",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0010"
+      ],
+      "tactic_names": [
+        "Exfiltration"
+      ],
+      "technique_ids": [
+        "T1041"
+      ],
+      "technique_details": [
+        {
+          "id": "T1041",
+          "name": "From rule metadata"
+        }
+      ],
+      "mapping_source": "layer1_metadata",
+      "has_original_mitre": true
+    }
+  },
+  {
+    "opensearch_id": "yxjMTZ4BdD8__Pxwrjej",
+    "timestamp": "1970-01-01T07:14:50.865797+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "45.79.186.178",
+    "src_port": "49162",
+    "dest_port": "8080",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+    "signature_id": "2024274",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [
+      "TA0010"
+    ],
+    "mitre_technique_id": [
+      "T1041"
+    ],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32/Emotet CnC Beacon 1",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Linode",
+      "domain": "linode.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "US",
+      "countryName": "United States of America",
+      "isTor": false,
+      "lastReportedAt": "2023-10-24T06:33:29+00:00",
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0010"
+      ],
+      "tactic_names": [
+        "Exfiltration"
+      ],
+      "technique_ids": [
+        "T1041"
+      ],
+      "technique_details": [
+        {
+          "id": "T1041",
+          "name": "From rule metadata"
+        }
+      ],
+      "mapping_source": "layer1_metadata",
+      "has_original_mitre": true
+    }
+  },
+  {
+    "opensearch_id": "yhjMTZ4BdD8__Pxwrjej",
+    "timestamp": "1970-01-01T07:14:50.865797+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "45.79.186.178",
+    "src_port": "49162",
+    "dest_port": "8080",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+    "signature_id": "2024272",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [],
+    "mitre_technique_id": [],
+    "malware_family": [
+      "Emotet",
+      "Geodo"
+    ],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32.Geodo/Emotet Checkin",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Linode",
+      "domain": "linode.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "US",
+      "countryName": "United States of America",
+      "isTor": false,
+      "lastReportedAt": "2023-10-24T06:33:29+00:00",
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0011"
+      ],
+      "tactic_names": [
+        "Command and Control"
+      ],
+      "technique_ids": [
+        "T1071.001"
+      ],
+      "technique_details": [
+        {
+          "id": "T1071.001",
+          "name": "Web Protocols"
+        }
+      ],
+      "mapping_source": "layer2_classtype + layer3_malware_family",
+      "has_original_mitre": false,
+      "software_id": "S0367",
+      "malware_matched": "Emotet",
+      "reference_url": "https://attack.mitre.org/software/S0367/"
+    }
+  },
+  {
+    "opensearch_id": "vxjMTZ4BdD8__Pxwrjej",
+    "timestamp": "1970-01-01T07:15:23.158701+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "87.106.77.193",
+    "src_port": "49163",
+    "dest_port": "8080",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+    "signature_id": "2024272",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [],
+    "mitre_technique_id": [],
+    "malware_family": [
+      "Emotet",
+      "Geodo"
+    ],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32.Geodo/Emotet Checkin",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 4,
+      "numDistinctUsers": 1,
+      "isWhitelisted": false,
+      "isp": "IONOS SE",
+      "domain": "ionos.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "DE",
+      "countryName": "Germany",
+      "isTor": false,
+      "lastReportedAt": "2025-09-15T15:20:58+00:00",
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0011"
+      ],
+      "tactic_names": [
+        "Command and Control"
+      ],
+      "technique_ids": [
+        "T1071.001"
+      ],
+      "technique_details": [
+        {
+          "id": "T1071.001",
+          "name": "Web Protocols"
+        }
+      ],
+      "mapping_source": "layer2_classtype + layer3_malware_family",
+      "has_original_mitre": false,
+      "software_id": "S0367",
+      "malware_matched": "Emotet",
+      "reference_url": "https://attack.mitre.org/software/S0367/"
+    }
+  },
+  {
+    "opensearch_id": "wBjMTZ4BdD8__Pxwrjej",
+    "timestamp": "1970-01-01T07:15:23.158701+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "87.106.77.193",
+    "src_port": "49163",
+    "dest_port": "8080",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+    "signature_id": "2024274",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [
+      "TA0010"
+    ],
+    "mitre_technique_id": [
+      "T1041"
+    ],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32/Emotet CnC Beacon 1",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 4,
+      "numDistinctUsers": 1,
+      "isWhitelisted": false,
+      "isp": "IONOS SE",
+      "domain": "ionos.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "DE",
+      "countryName": "Germany",
+      "isTor": false,
+      "lastReportedAt": "2025-09-15T15:20:58+00:00",
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0010"
+      ],
+      "tactic_names": [
+        "Exfiltration"
+      ],
+      "technique_ids": [
+        "T1041"
+      ],
+      "technique_details": [
+        {
+          "id": "T1041",
+          "name": "From rule metadata"
+        }
+      ],
+      "mapping_source": "layer1_metadata",
+      "has_original_mitre": true
+    }
+  },
+  {
+    "opensearch_id": "7xjMTZ4BdD8__Pxwrjej",
+    "timestamp": "1970-01-01T07:15:57.639955+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "163.172.81.35",
+    "src_port": "49164",
+    "dest_port": "8080",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+    "signature_id": "2024272",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [],
+    "mitre_technique_id": [],
+    "malware_family": [
+      "Emotet",
+      "Geodo"
+    ],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32.Geodo/Emotet Checkin",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Scaleway Dedibox - Paris, France",
+      "domain": "scaleway.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "FR",
+      "countryName": "France",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0011"
+      ],
+      "tactic_names": [
+        "Command and Control"
+      ],
+      "technique_ids": [
+        "T1071.001"
+      ],
+      "technique_details": [
+        {
+          "id": "T1071.001",
+          "name": "Web Protocols"
+        }
+      ],
+      "mapping_source": "layer2_classtype + layer3_malware_family",
+      "has_original_mitre": false,
+      "software_id": "S0367",
+      "malware_matched": "Emotet",
+      "reference_url": "https://attack.mitre.org/software/S0367/"
+    }
+  },
+  {
+    "opensearch_id": "8BjMTZ4BdD8__PxwujeH",
+    "timestamp": "1970-01-01T07:15:57.639955+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "163.172.81.35",
+    "src_port": "49164",
+    "dest_port": "8080",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+    "signature_id": "2024274",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [
+      "TA0010"
+    ],
+    "mitre_technique_id": [
+      "T1041"
+    ],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32/Emotet CnC Beacon 1",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Scaleway Dedibox - Paris, France",
+      "domain": "scaleway.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "FR",
+      "countryName": "France",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0010"
+      ],
+      "tactic_names": [
+        "Exfiltration"
+      ],
+      "technique_ids": [
+        "T1041"
+      ],
+      "technique_details": [
+        {
+          "id": "T1041",
+          "name": "From rule metadata"
+        }
+      ],
+      "mapping_source": "layer1_metadata",
+      "has_original_mitre": true
+    }
+  },
+  {
+    "opensearch_id": "wxjMTZ4BdD8__Pxwrjej",
+    "timestamp": "1970-01-01T07:16:32.113819+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "109.169.66.107",
+    "src_port": "49165",
+    "dest_port": "8080",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+    "signature_id": "2024274",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [
+      "TA0010"
+    ],
+    "mitre_technique_id": [
+      "T1041"
+    ],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32/Emotet CnC Beacon 1",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Rapidswitch",
+      "domain": "rapidswitch.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "GB",
+      "countryName": "United Kingdom of Great Britain and Northern Ireland",
+      "isTor": false,
+      "lastReportedAt": "2023-09-20T00:23:30+00:00",
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0010"
+      ],
+      "tactic_names": [
+        "Exfiltration"
+      ],
+      "technique_ids": [
+        "T1041"
+      ],
+      "technique_details": [
+        {
+          "id": "T1041",
+          "name": "From rule metadata"
+        }
+      ],
+      "mapping_source": "layer1_metadata",
+      "has_original_mitre": true
+    }
+  },
+  {
+    "opensearch_id": "whjMTZ4BdD8__Pxwrjej",
+    "timestamp": "1970-01-01T07:16:32.113819+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "109.169.66.107",
+    "src_port": "49165",
+    "dest_port": "8080",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+    "signature_id": "2024272",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [],
+    "mitre_technique_id": [],
+    "malware_family": [
+      "Emotet",
+      "Geodo"
+    ],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32.Geodo/Emotet Checkin",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Rapidswitch",
+      "domain": "rapidswitch.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "GB",
+      "countryName": "United Kingdom of Great Britain and Northern Ireland",
+      "isTor": false,
+      "lastReportedAt": "2023-09-20T00:23:30+00:00",
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0011"
+      ],
+      "tactic_names": [
+        "Command and Control"
+      ],
+      "technique_ids": [
+        "T1071.001"
+      ],
+      "technique_details": [
+        {
+          "id": "T1071.001",
+          "name": "Web Protocols"
+        }
+      ],
+      "mapping_source": "layer2_classtype + layer3_malware_family",
+      "has_original_mitre": false,
+      "software_id": "S0367",
+      "malware_matched": "Emotet",
+      "reference_url": "https://attack.mitre.org/software/S0367/"
+    }
+  },
+  {
+    "opensearch_id": "0BjMTZ4BdD8__Pxwrjej",
+    "timestamp": "1970-01-01T07:17:37.067641+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "85.25.119.91",
+    "src_port": "49166",
+    "dest_port": "8080",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+    "signature_id": "2024272",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [],
+    "mitre_technique_id": [],
+    "malware_family": [
+      "Emotet",
+      "Geodo"
+    ],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32.Geodo/Emotet Checkin",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "BSB-SERVICE Dedicated Server Hosting",
+      "domain": "server4you.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "FR",
+      "countryName": "France",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0011"
+      ],
+      "tactic_names": [
+        "Command and Control"
+      ],
+      "technique_ids": [
+        "T1071.001"
+      ],
+      "technique_details": [
+        {
+          "id": "T1071.001",
+          "name": "Web Protocols"
+        }
+      ],
+      "mapping_source": "layer2_classtype + layer3_malware_family",
+      "has_original_mitre": false,
+      "software_id": "S0367",
+      "malware_matched": "Emotet",
+      "reference_url": "https://attack.mitre.org/software/S0367/"
+    }
+  },
+  {
+    "opensearch_id": "0RjMTZ4BdD8__Pxwrjej",
+    "timestamp": "1970-01-01T07:17:37.067641+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "85.25.119.91",
+    "src_port": "49166",
+    "dest_port": "8080",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+    "signature_id": "2024274",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [
+      "TA0010"
+    ],
+    "mitre_technique_id": [
+      "T1041"
+    ],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32/Emotet CnC Beacon 1",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "BSB-SERVICE Dedicated Server Hosting",
+      "domain": "server4you.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "FR",
+      "countryName": "France",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0010"
+      ],
+      "tactic_names": [
+        "Exfiltration"
+      ],
+      "technique_ids": [
+        "T1041"
+      ],
+      "technique_details": [
+        {
+          "id": "T1041",
+          "name": "From rule metadata"
+        }
+      ],
+      "mapping_source": "layer1_metadata",
+      "has_original_mitre": true
+    }
+  },
+  {
+    "opensearch_id": "8hjMTZ4BdD8__PxwujeH",
+    "timestamp": "1970-01-01T07:18:09.335900+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "62.75.145.252",
+    "src_port": "49167",
+    "dest_port": "8080",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+    "signature_id": "2024272",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [],
+    "mitre_technique_id": [],
+    "malware_family": [
+      "Emotet",
+      "Geodo"
+    ],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32.Geodo/Emotet Checkin",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Host Europe GmbH",
+      "domain": "hosteurope.de",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "DE",
+      "countryName": "Germany",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0011"
+      ],
+      "tactic_names": [
+        "Command and Control"
+      ],
+      "technique_ids": [
+        "T1071.001"
+      ],
+      "technique_details": [
+        {
+          "id": "T1071.001",
+          "name": "Web Protocols"
+        }
+      ],
+      "mapping_source": "layer2_classtype + layer3_malware_family",
+      "has_original_mitre": false,
+      "software_id": "S0367",
+      "malware_matched": "Emotet",
+      "reference_url": "https://attack.mitre.org/software/S0367/"
+    }
+  },
+  {
+    "opensearch_id": "8xjMTZ4BdD8__PxwujeH",
+    "timestamp": "1970-01-01T07:18:09.335900+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "62.75.145.252",
+    "src_port": "49167",
+    "dest_port": "8080",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+    "signature_id": "2024274",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [
+      "TA0010"
+    ],
+    "mitre_technique_id": [
+      "T1041"
+    ],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32/Emotet CnC Beacon 1",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Host Europe GmbH",
+      "domain": "hosteurope.de",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "DE",
+      "countryName": "Germany",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0010"
+      ],
+      "tactic_names": [
+        "Exfiltration"
+      ],
+      "technique_ids": [
+        "T1041"
+      ],
+      "technique_details": [
+        {
+          "id": "T1041",
+          "name": "From rule metadata"
+        }
+      ],
+      "mapping_source": "layer1_metadata",
+      "has_original_mitre": true
+    }
+  },
+  {
+    "opensearch_id": "9xjMTZ4BdD8__PxwujeH",
+    "timestamp": "1970-01-01T07:19:14.287087+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "178.79.172.45",
+    "src_port": "49168",
+    "dest_port": "8080",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+    "signature_id": "2024274",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [
+      "TA0010"
+    ],
+    "mitre_technique_id": [
+      "T1041"
+    ],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32/Emotet CnC Beacon 1",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Linode, LLC",
+      "domain": "linode.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "GB",
+      "countryName": "United Kingdom of Great Britain and Northern Ireland",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0010"
+      ],
+      "tactic_names": [
+        "Exfiltration"
+      ],
+      "technique_ids": [
+        "T1041"
+      ],
+      "technique_details": [
+        {
+          "id": "T1041",
+          "name": "From rule metadata"
+        }
+      ],
+      "mapping_source": "layer1_metadata",
+      "has_original_mitre": true
+    }
+  },
+  {
+    "opensearch_id": "9hjMTZ4BdD8__PxwujeH",
+    "timestamp": "1970-01-01T07:19:14.287087+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "178.79.172.45",
+    "src_port": "49168",
+    "dest_port": "8080",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+    "signature_id": "2024272",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [],
+    "mitre_technique_id": [],
+    "malware_family": [
+      "Emotet",
+      "Geodo"
+    ],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32.Geodo/Emotet Checkin",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Linode, LLC",
+      "domain": "linode.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "GB",
+      "countryName": "United Kingdom of Great Britain and Northern Ireland",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0011"
+      ],
+      "tactic_names": [
+        "Command and Control"
+      ],
+      "technique_ids": [
+        "T1071.001"
+      ],
+      "technique_details": [
+        {
+          "id": "T1071.001",
+          "name": "Web Protocols"
+        }
+      ],
+      "mapping_source": "layer2_classtype + layer3_malware_family",
+      "has_original_mitre": false,
+      "software_id": "S0367",
+      "malware_matched": "Emotet",
+      "reference_url": "https://attack.mitre.org/software/S0367/"
+    }
+  },
+  {
+    "opensearch_id": "xRjMTZ4BdD8__Pxwrjej",
+    "timestamp": "1970-01-01T07:20:17.037381+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "192.155.83.86",
+    "src_port": "49169",
+    "dest_port": "8080",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+    "signature_id": "2024272",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [],
+    "mitre_technique_id": [],
+    "malware_family": [
+      "Emotet",
+      "Geodo"
+    ],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32.Geodo/Emotet Checkin",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Linode",
+      "domain": "linode.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "US",
+      "countryName": "United States of America",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0011"
+      ],
+      "tactic_names": [
+        "Command and Control"
+      ],
+      "technique_ids": [
+        "T1071.001"
+      ],
+      "technique_details": [
+        {
+          "id": "T1071.001",
+          "name": "Web Protocols"
+        }
+      ],
+      "mapping_source": "layer2_classtype + layer3_malware_family",
+      "has_original_mitre": false,
+      "software_id": "S0367",
+      "malware_matched": "Emotet",
+      "reference_url": "https://attack.mitre.org/software/S0367/"
+    }
+  },
+  {
+    "opensearch_id": "xhjMTZ4BdD8__Pxwrjej",
+    "timestamp": "1970-01-01T07:20:17.037381+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "192.155.83.86",
+    "src_port": "49169",
+    "dest_port": "8080",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+    "signature_id": "2024274",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [
+      "TA0010"
+    ],
+    "mitre_technique_id": [
+      "T1041"
+    ],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32/Emotet CnC Beacon 1",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Linode",
+      "domain": "linode.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "US",
+      "countryName": "United States of America",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0010"
+      ],
+      "tactic_names": [
+        "Exfiltration"
+      ],
+      "technique_ids": [
+        "T1041"
+      ],
+      "technique_details": [
+        {
+          "id": "T1041",
+          "name": "From rule metadata"
+        }
+      ],
+      "mapping_source": "layer1_metadata",
+      "has_original_mitre": true
+    }
+  },
+  {
+    "opensearch_id": "0hjMTZ4BdD8__Pxwrjej",
+    "timestamp": "1970-01-01T07:20:49.349187+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "95.110.231.207",
+    "src_port": "49170",
+    "dest_port": "8080",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+    "signature_id": "2024272",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [],
+    "mitre_technique_id": [],
+    "malware_family": [
+      "Emotet",
+      "Geodo"
+    ],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32.Geodo/Emotet Checkin",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Aruba S.p.A. - Dedicated servers",
+      "domain": "aruba.it",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "IT",
+      "countryName": "Italy",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0011"
+      ],
+      "tactic_names": [
+        "Command and Control"
+      ],
+      "technique_ids": [
+        "T1071.001"
+      ],
+      "technique_details": [
+        {
+          "id": "T1071.001",
+          "name": "Web Protocols"
+        }
+      ],
+      "mapping_source": "layer2_classtype + layer3_malware_family",
+      "has_original_mitre": false,
+      "software_id": "S0367",
+      "malware_matched": "Emotet",
+      "reference_url": "https://attack.mitre.org/software/S0367/"
+    }
+  },
+  {
+    "opensearch_id": "0xjMTZ4BdD8__Pxwrjej",
+    "timestamp": "1970-01-01T07:20:49.349187+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "95.110.231.207",
+    "src_port": "49170",
+    "dest_port": "8080",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+    "signature_id": "2024274",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [
+      "TA0010"
+    ],
+    "mitre_technique_id": [
+      "T1041"
+    ],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32/Emotet CnC Beacon 1",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Aruba S.p.A. - Dedicated servers",
+      "domain": "aruba.it",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "IT",
+      "countryName": "Italy",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0010"
+      ],
+      "tactic_names": [
+        "Exfiltration"
+      ],
+      "technique_ids": [
+        "T1041"
+      ],
+      "technique_details": [
+        {
+          "id": "T1041",
+          "name": "From rule metadata"
+        }
+      ],
+      "mapping_source": "layer1_metadata",
+      "has_original_mitre": true
+    }
+  },
+  {
+    "opensearch_id": "-RjMTZ4BdD8__PxwujeH",
+    "timestamp": "1970-01-01T07:21:23.959626+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "139.59.33.202",
+    "src_port": "49171",
+    "dest_port": "8080",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+    "signature_id": "2024274",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [
+      "TA0010"
+    ],
+    "mitre_technique_id": [
+      "T1041"
+    ],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32/Emotet CnC Beacon 1",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "DigitalOcean, LLC",
+      "domain": "digitalocean.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "IN",
+      "countryName": "India",
+      "isTor": false,
+      "lastReportedAt": "2022-10-26T05:03:35+00:00",
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0010"
+      ],
+      "tactic_names": [
+        "Exfiltration"
+      ],
+      "technique_ids": [
+        "T1041"
+      ],
+      "technique_details": [
+        {
+          "id": "T1041",
+          "name": "From rule metadata"
+        }
+      ],
+      "mapping_source": "layer1_metadata",
+      "has_original_mitre": true
+    }
+  },
+  {
+    "opensearch_id": "-hjMTZ4BdD8__PxwujeH",
+    "timestamp": "1970-01-01T07:21:23.959626+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "139.59.33.202",
+    "src_port": "49171",
+    "dest_port": "8080",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+    "signature_id": "2024272",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [],
+    "mitre_technique_id": [],
+    "malware_family": [
+      "Emotet",
+      "Geodo"
+    ],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32.Geodo/Emotet Checkin",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "DigitalOcean, LLC",
+      "domain": "digitalocean.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "IN",
+      "countryName": "India",
+      "isTor": false,
+      "lastReportedAt": "2022-10-26T05:03:35+00:00",
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0011"
+      ],
+      "tactic_names": [
+        "Command and Control"
+      ],
+      "technique_ids": [
+        "T1071.001"
+      ],
+      "technique_details": [
+        {
+          "id": "T1071.001",
+          "name": "Web Protocols"
+        }
+      ],
+      "mapping_source": "layer2_classtype + layer3_malware_family",
+      "has_original_mitre": false,
+      "software_id": "S0367",
+      "malware_matched": "Emotet",
+      "reference_url": "https://attack.mitre.org/software/S0367/"
+    }
+  },
+  {
+    "opensearch_id": "zhjMTZ4BdD8__Pxwrjej",
+    "timestamp": "1970-01-01T07:21:58.511727+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "66.175.215.16",
+    "src_port": "49172",
+    "dest_port": "8080",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32/Emotet CnC Beacon 1",
+    "signature_id": "2024274",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [
+      "TA0010"
+    ],
+    "mitre_technique_id": [
+      "T1041"
+    ],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32/Emotet CnC Beacon 1",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Linode",
+      "domain": "linode.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "US",
+      "countryName": "United States of America",
+      "isTor": false,
+      "lastReportedAt": "2021-09-04T09:53:50+00:00",
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0010"
+      ],
+      "tactic_names": [
+        "Exfiltration"
+      ],
+      "technique_ids": [
+        "T1041"
+      ],
+      "technique_details": [
+        {
+          "id": "T1041",
+          "name": "From rule metadata"
+        }
+      ],
+      "mapping_source": "layer1_metadata",
+      "has_original_mitre": true
+    }
+  },
+  {
+    "opensearch_id": "yRjMTZ4BdD8__Pxwrjej",
+    "timestamp": "1970-01-01T07:21:58.511727+0700",
+    "src_ip": "192.168.1.126",
+    "dest_ip": "66.175.215.16",
+    "src_port": "49172",
+    "dest_port": "8080",
+    "proto": "TCP",
+    "signature": "ET MALWARE W32.Geodo/Emotet Checkin",
+    "signature_id": "2024272",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [],
+    "mitre_technique_id": [],
+    "malware_family": [
+      "Emotet",
+      "Geodo"
+    ],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE W32.Geodo/Emotet Checkin",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Linode",
+      "domain": "linode.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "US",
+      "countryName": "United States of America",
+      "isTor": false,
+      "lastReportedAt": "2021-09-04T09:53:50+00:00",
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0011"
+      ],
+      "tactic_names": [
+        "Command and Control"
+      ],
+      "technique_ids": [
+        "T1071.001"
+      ],
+      "technique_details": [
+        {
+          "id": "T1071.001",
+          "name": "Web Protocols"
+        }
+      ],
+      "mapping_source": "layer2_classtype + layer3_malware_family",
+      "has_original_mitre": false,
+      "software_id": "S0367",
+      "malware_matched": "Emotet",
+      "reference_url": "https://attack.mitre.org/software/S0367/"
+    }
+  },
+  {
+    "opensearch_id": "NxoDTp4BdD8__PxwQGPr",
+    "timestamp": "2020-04-29T15:29:07.147389+0700",
+    "src_ip": "192.168.100.197",
+    "dest_ip": "103.249.87.72",
+    "src_port": "50159",
+    "dest_port": "443",
+    "proto": "TCP",
+    "signature": "ET RETIRED PoisonIvy HTTP CnC Beacon",
+    "signature_id": "2021523",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [
+      "TA0010"
+    ],
+    "mitre_technique_id": [
+      "T1041"
+    ],
+    "malware_family": [
+      "PoisonIvy"
+    ],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET RETIRED PoisonIvy HTTP CnC Beacon",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Hosting Services",
+      "domain": "invision7.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "MY",
+      "countryName": "Malaysia",
+      "isTor": false,
+      "lastReportedAt": "2021-03-22T16:40:54+00:00",
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0010"
+      ],
+      "tactic_names": [
+        "Exfiltration"
+      ],
+      "technique_ids": [
+        "T1041"
+      ],
+      "technique_details": [
+        {
+          "id": "T1041",
+          "name": "From rule metadata"
+        }
+      ],
+      "mapping_source": "layer1_metadata",
+      "has_original_mitre": true
+    }
+  },
+  {
+    "opensearch_id": "ORr-TZ4BdD8__PxwYGAU",
+    "timestamp": "2020-09-28T21:58:06.635326+0700",
+    "src_ip": "192.168.100.155",
+    "dest_ip": "186.145.214.199",
+    "src_port": "50768",
+    "dest_port": "3040",
+    "proto": "TCP",
+    "signature": "ET MALWARE Generic njRAT/Bladabindi CnC Activity (ll)",
+    "signature_id": "2033132",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [],
+    "mitre_technique_id": [],
+    "malware_family": [
+      "njrat",
+      "Bladabindi"
+    ],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "Medium"
+    ],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE Generic njRAT/Bladabindi CnC Activity (ll)",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Telmex Colombia S.A.",
+      "domain": "telmexla.net.co",
+      "usageType": "Fixed Line ISP",
+      "countryCode": "CO",
+      "countryName": "Colombia",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0011"
+      ],
+      "tactic_names": [
+        "Command and Control"
+      ],
+      "technique_ids": [
+        "T1071"
+      ],
+      "technique_details": [
+        {
+          "id": "T1071",
+          "name": "Application Layer Protocol"
+        }
+      ],
+      "mapping_source": "layer2_classtype + layer3_malware_family",
+      "has_original_mitre": false,
+      "software_id": "S0385",
+      "malware_matched": "njRAT",
+      "reference_url": "https://attack.mitre.org/software/S0385/"
+    }
+  },
+  {
+    "opensearch_id": "3BnfTZ4BdD8__Pxw3s1_",
+    "timestamp": "2020-10-31T18:42:01.609992+0700",
+    "src_ip": "192.168.100.197",
+    "dest_ip": "185.239.226.65",
+    "src_port": "60930",
+    "dest_port": "443",
+    "proto": "TCP",
+    "signature": "ET MALWARE APT Mustang Panda Payload - CnC Checkin",
+    "signature_id": "2028823",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [],
+    "mitre_technique_id": [],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [
+      "Client_and_Server"
+    ],
+    "affected_product": [
+      "Windows_XP_Vista_7_8_10_Server_32_64_Bit"
+    ],
+    "deployment": [
+      "SSLDecrypt",
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE APT Mustang Panda Payload - CnC Checkin",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "HONGKONG WEN JING NETWORK LIMITED",
+      "domain": "svm.net",
+      "usageType": "Fixed Line ISP",
+      "countryCode": "HK",
+      "countryName": "Hong Kong",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0011"
+      ],
+      "tactic_names": [
+        "Command and Control"
+      ],
+      "technique_ids": [
+        "T1071"
+      ],
+      "technique_details": [
+        {
+          "id": "T1071",
+          "name": "Application Layer Protocol"
+        }
+      ],
+      "mapping_source": "layer2_classtype + layer3_signature_pattern",
+      "has_original_mitre": false,
+      "software_id": "G0129",
+      "malware_matched": "Mustang Panda",
+      "reference_url": "https://attack.mitre.org/groups/G0129/",
+      "group_level_fallback": true
+    }
+  },
+  {
+    "opensearch_id": "3xoBTp4BdD8__Pxw3WDw",
+    "timestamp": "2020-10-31T19:08:59.674788+0700",
+    "src_ip": "192.168.100.236",
+    "dest_ip": "185.66.41.19",
+    "src_port": "50047",
+    "dest_port": "80",
+    "proto": "TCP",
+    "signature": "ET MALWARE Gozi/BlackNet Checkin",
+    "signature_id": "2019378",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [],
+    "mitre_technique_id": [],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [],
+    "affected_product": [],
+    "deployment": [],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE Gozi/BlackNet Checkin",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "10dencehispahard, S.L.",
+      "domain": "cdmon.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "ES",
+      "countryName": "Spain",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0011"
+      ],
+      "tactic_names": [
+        "Command and Control"
+      ],
+      "technique_ids": [
+        "T1071.001"
+      ],
+      "technique_details": [
+        {
+          "id": "T1071.001",
+          "name": "Web Protocols"
+        }
+      ],
+      "mapping_source": "layer2_classtype + layer3_signature_pattern",
+      "has_original_mitre": false,
+      "software_id": "S0386",
+      "malware_matched": "Gozi",
+      "reference_url": "https://attack.mitre.org/software/S0386/"
+    }
+  },
+  {
+    "opensearch_id": "yxoBTp4BdD8__Pxw3WCD",
+    "timestamp": "2020-10-31T19:09:00.519255+0700",
+    "src_ip": "192.168.100.236",
+    "dest_ip": "208.97.148.181",
+    "src_port": "50063",
+    "dest_port": "80",
+    "proto": "TCP",
+    "signature": "ET MALWARE Gozi/BlackNet Checkin",
+    "signature_id": "2019378",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [],
+    "mitre_technique_id": [],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [],
+    "affected_product": [],
+    "deployment": [],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE Gozi/BlackNet Checkin",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "DreamHost",
+      "domain": "dreamhost.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "US",
+      "countryName": "United States of America",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0011"
+      ],
+      "tactic_names": [
+        "Command and Control"
+      ],
+      "technique_ids": [
+        "T1071.001"
+      ],
+      "technique_details": [
+        {
+          "id": "T1071.001",
+          "name": "Web Protocols"
+        }
+      ],
+      "mapping_source": "layer2_classtype + layer3_signature_pattern",
+      "has_original_mitre": false,
+      "software_id": "S0386",
+      "malware_matched": "Gozi",
+      "reference_url": "https://attack.mitre.org/software/S0386/"
+    }
+  },
+  {
+    "opensearch_id": "8BoBTp4BdD8__Pxw3WDw",
+    "timestamp": "2020-10-31T19:09:00.900386+0700",
+    "src_ip": "192.168.100.236",
+    "dest_ip": "84.124.52.38",
+    "src_port": "50071",
+    "dest_port": "80",
+    "proto": "TCP",
+    "signature": "ET MALWARE Gozi/BlackNet Checkin",
+    "signature_id": "2019378",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [],
+    "mitre_technique_id": [],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [],
+    "affected_product": [],
+    "deployment": [],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE Gozi/BlackNet Checkin",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "VODAFONE ONO, S.A.",
+      "domain": "vodafone.es",
+      "usageType": "Fixed Line ISP",
+      "countryCode": "ES",
+      "countryName": "Spain",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0011"
+      ],
+      "tactic_names": [
+        "Command and Control"
+      ],
+      "technique_ids": [
+        "T1071.001"
+      ],
+      "technique_details": [
+        {
+          "id": "T1071.001",
+          "name": "Web Protocols"
+        }
+      ],
+      "mapping_source": "layer2_classtype + layer3_signature_pattern",
+      "has_original_mitre": false,
+      "software_id": "S0386",
+      "malware_matched": "Gozi",
+      "reference_url": "https://attack.mitre.org/software/S0386/"
+    }
+  },
+  {
+    "opensearch_id": "hRoBTp4BdD8__Pxw32Ey",
+    "timestamp": "2020-10-31T19:09:01.793826+0700",
+    "src_ip": "192.168.100.236",
+    "dest_ip": "82.223.110.35",
+    "src_port": "50087",
+    "dest_port": "80",
+    "proto": "TCP",
+    "signature": "ET MALWARE Gozi/BlackNet Checkin",
+    "signature_id": "2019378",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [],
+    "mitre_technique_id": [],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [
+      "High"
+    ],
+    "attack_target": [],
+    "affected_product": [],
+    "deployment": [],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE Gozi/BlackNet Checkin",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "arsys.es",
+      "domain": "arsys.es",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "ES",
+      "countryName": "Spain",
+      "isTor": false,
+      "lastReportedAt": null,
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0011"
+      ],
+      "tactic_names": [
+        "Command and Control"
+      ],
+      "technique_ids": [
+        "T1071.001"
+      ],
+      "technique_details": [
+        {
+          "id": "T1071.001",
+          "name": "Web Protocols"
+        }
+      ],
+      "mapping_source": "layer2_classtype + layer3_signature_pattern",
+      "has_original_mitre": false,
+      "software_id": "S0386",
+      "malware_matched": "Gozi",
+      "reference_url": "https://attack.mitre.org/software/S0386/"
+    }
+  },
+  {
+    "opensearch_id": "WhnbTZ4BdD8__Pxwhsa2",
+    "timestamp": "2020-10-31T23:57:38.470601+0700",
+    "src_ip": "192.168.100.8",
+    "dest_ip": "204.11.56.48",
+    "src_port": "49236",
+    "dest_port": "80",
+    "proto": "TCP",
+    "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 1",
+    "signature_id": "2016139",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [
+      "TA0010"
+    ],
+    "mitre_technique_id": [
+      "T1041"
+    ],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE Sakula/Mivast RAT CnC Beacon 1",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Confluence Networks Inc",
+      "domain": "confluence-networks.com",
+      "usageType": "Content Delivery Network",
+      "countryCode": "US",
+      "countryName": "United States of America",
+      "isTor": false,
+      "lastReportedAt": "2024-10-17T17:21:55+00:00",
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0010"
+      ],
+      "tactic_names": [
+        "Exfiltration"
+      ],
+      "technique_ids": [
+        "T1041"
+      ],
+      "technique_details": [
+        {
+          "id": "T1041",
+          "name": "From rule metadata"
+        }
+      ],
+      "mapping_source": "layer1_metadata",
+      "has_original_mitre": true
+    }
+  },
+  {
+    "opensearch_id": "6BnbTZ4BdD8__Pxwh8bc",
+    "timestamp": "2020-10-31T23:58:52.865842+0700",
+    "src_ip": "192.168.100.8",
+    "dest_ip": "3.223.115.185",
+    "src_port": "50238",
+    "dest_port": "80",
+    "proto": "TCP",
+    "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 1",
+    "signature_id": "2016139",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [
+      "TA0010"
+    ],
+    "mitre_technique_id": [
+      "T1041"
+    ],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE Sakula/Mivast RAT CnC Beacon 1",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Amazon Data Services Northern Virginia",
+      "domain": "amazon.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "US",
+      "countryName": "United States of America",
+      "isTor": false,
+      "lastReportedAt": "2025-01-24T01:38:17+00:00",
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0010"
+      ],
+      "tactic_names": [
+        "Exfiltration"
+      ],
+      "technique_ids": [
+        "T1041"
+      ],
+      "technique_details": [
+        {
+          "id": "T1041",
+          "name": "From rule metadata"
+        }
+      ],
+      "mapping_source": "layer1_metadata",
+      "has_original_mitre": true
+    }
+  },
+  {
+    "opensearch_id": "CRnbTZ4BdD8__PxwiMcn",
+    "timestamp": "2020-10-31T23:58:53.812417+0700",
+    "src_ip": "192.168.100.8",
+    "dest_ip": "3.223.115.185",
+    "src_port": "50238",
+    "dest_port": "80",
+    "proto": "TCP",
+    "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 2",
+    "signature_id": "2021200",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [
+      "TA0010"
+    ],
+    "mitre_technique_id": [
+      "T1041"
+    ],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE Sakula/Mivast RAT CnC Beacon 2",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Amazon Data Services Northern Virginia",
+      "domain": "amazon.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "US",
+      "countryName": "United States of America",
+      "isTor": false,
+      "lastReportedAt": "2025-01-24T01:38:17+00:00",
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0010"
+      ],
+      "tactic_names": [
+        "Exfiltration"
+      ],
+      "technique_ids": [
+        "T1041"
+      ],
+      "technique_details": [
+        {
+          "id": "T1041",
+          "name": "From rule metadata"
+        }
+      ],
+      "mapping_source": "layer1_metadata",
+      "has_original_mitre": true
+    }
+  },
+  {
+    "opensearch_id": "EhnbTZ4BdD8__PxwiMcn",
+    "timestamp": "2020-10-31T23:58:54.055276+0700",
+    "src_ip": "192.168.100.8",
+    "dest_ip": "3.223.115.185",
+    "src_port": "50238",
+    "dest_port": "80",
+    "proto": "TCP",
+    "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 3",
+    "signature_id": "2021201",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [
+      "TA0010"
+    ],
+    "mitre_technique_id": [
+      "T1041"
+    ],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE Sakula/Mivast RAT CnC Beacon 3",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Amazon Data Services Northern Virginia",
+      "domain": "amazon.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "US",
+      "countryName": "United States of America",
+      "isTor": false,
+      "lastReportedAt": "2025-01-24T01:38:17+00:00",
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0010"
+      ],
+      "tactic_names": [
+        "Exfiltration"
+      ],
+      "technique_ids": [
+        "T1041"
+      ],
+      "technique_details": [
+        {
+          "id": "T1041",
+          "name": "From rule metadata"
+        }
+      ],
+      "mapping_source": "layer1_metadata",
+      "has_original_mitre": true
+    }
+  },
+  {
+    "opensearch_id": "qxncTZ4BdD8__Pxw2shP",
+    "timestamp": "2020-11-01T00:16:34.218690+0700",
+    "src_ip": "192.168.100.12",
+    "dest_ip": "204.11.56.48",
+    "src_port": "49258",
+    "dest_port": "80",
+    "proto": "TCP",
+    "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 1",
+    "signature_id": "2016139",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [
+      "TA0010"
+    ],
+    "mitre_technique_id": [
+      "T1041"
+    ],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE Sakula/Mivast RAT CnC Beacon 1",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Confluence Networks Inc",
+      "domain": "confluence-networks.com",
+      "usageType": "Content Delivery Network",
+      "countryCode": "US",
+      "countryName": "United States of America",
+      "isTor": false,
+      "lastReportedAt": "2024-10-17T17:21:55+00:00",
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0010"
+      ],
+      "tactic_names": [
+        "Exfiltration"
+      ],
+      "technique_ids": [
+        "T1041"
+      ],
+      "technique_details": [
+        {
+          "id": "T1041",
+          "name": "From rule metadata"
+        }
+      ],
+      "mapping_source": "layer1_metadata",
+      "has_original_mitre": true
+    }
+  },
+  {
+    "opensearch_id": "nxncTZ4BdD8__Pxw2shP",
+    "timestamp": "2020-11-01T00:18:03.577483+0700",
+    "src_ip": "192.168.100.12",
+    "dest_ip": "3.223.115.185",
+    "src_port": "50453",
+    "dest_port": "80",
+    "proto": "TCP",
+    "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 1",
+    "signature_id": "2016139",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [
+      "TA0010"
+    ],
+    "mitre_technique_id": [
+      "T1041"
+    ],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE Sakula/Mivast RAT CnC Beacon 1",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Amazon Data Services Northern Virginia",
+      "domain": "amazon.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "US",
+      "countryName": "United States of America",
+      "isTor": false,
+      "lastReportedAt": "2025-01-24T01:38:17+00:00",
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0010"
+      ],
+      "tactic_names": [
+        "Exfiltration"
+      ],
+      "technique_ids": [
+        "T1041"
+      ],
+      "technique_details": [
+        {
+          "id": "T1041",
+          "name": "From rule metadata"
+        }
+      ],
+      "mapping_source": "layer1_metadata",
+      "has_original_mitre": true
+    }
+  },
+  {
+    "opensearch_id": "2hncTZ4BdD8__Pxw2siZ",
+    "timestamp": "2020-11-01T00:18:04.821653+0700",
+    "src_ip": "192.168.100.12",
+    "dest_ip": "3.223.115.185",
+    "src_port": "50453",
+    "dest_port": "80",
+    "proto": "TCP",
+    "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 2",
+    "signature_id": "2021200",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [
+      "TA0010"
+    ],
+    "mitre_technique_id": [
+      "T1041"
+    ],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE Sakula/Mivast RAT CnC Beacon 2",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Amazon Data Services Northern Virginia",
+      "domain": "amazon.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "US",
+      "countryName": "United States of America",
+      "isTor": false,
+      "lastReportedAt": "2025-01-24T01:38:17+00:00",
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0010"
+      ],
+      "tactic_names": [
+        "Exfiltration"
+      ],
+      "technique_ids": [
+        "T1041"
+      ],
+      "technique_details": [
+        {
+          "id": "T1041",
+          "name": "From rule metadata"
+        }
+      ],
+      "mapping_source": "layer1_metadata",
+      "has_original_mitre": true
+    }
+  },
+  {
+    "opensearch_id": "BBncTZ4BdD8__Pxw2sno",
+    "timestamp": "2020-11-01T00:18:05.029560+0700",
+    "src_ip": "192.168.100.12",
+    "dest_ip": "3.223.115.185",
+    "src_port": "50453",
+    "dest_port": "80",
+    "proto": "TCP",
+    "signature": "ET MALWARE Sakula/Mivast RAT CnC Beacon 3",
+    "signature_id": "2021201",
+    "category": "Malware Command and Control Activity Detected",
+    "severity": "1",
+    "mitre_tactic_id": [
+      "TA0010"
+    ],
+    "mitre_technique_id": [
+      "T1041"
+    ],
+    "malware_family": [],
+    "signature_severity": [
+      "Major"
+    ],
+    "confidence": [],
+    "attack_target": [
+      "Client_Endpoint"
+    ],
+    "affected_product": [],
+    "deployment": [
+      "Perimeter"
+    ],
+    "wazuh_rule_description": "Suricata: Alert - ET MALWARE Sakula/Mivast RAT CnC Beacon 3",
+    "wazuh_rule_level": 3,
+    "abuseipdb": {
+      "abuseConfidenceScore": 0,
+      "totalReports": 0,
+      "numDistinctUsers": 0,
+      "isWhitelisted": false,
+      "isp": "Amazon Data Services Northern Virginia",
+      "domain": "amazon.com",
+      "usageType": "Data Center/Web Hosting/Transit",
+      "countryCode": "US",
+      "countryName": "United States of America",
+      "isTor": false,
+      "lastReportedAt": "2025-01-24T01:38:17+00:00",
+      "query_status": "success"
+    },
+    "mitre": {
+      "tactic_ids": [
+        "TA0010"
+      ],
+      "tactic_names": [
+        "Exfiltration"
+      ],
+      "technique_ids": [
+        "T1041"
+      ],
+      "technique_details": [
+        {
+          "id": "T1041",
+          "name": "From rule metadata"
+        }
+      ],
+      "mapping_source": "layer1_metadata",
+      "has_original_mitre": true
+    }
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "pipeline_run": {
+    "start_time": "2026-07-14T19:53:19.189686",
+    "end_time": "2026-07-14T19:59:54.258698",
+    "duration_seconds": 395.069012,
+    "stage_durations_seconds": {
+      "substitusi_ip": 0.001,
+      "modul2_abuseipdb_enrichment": 56.353,
+      "modul3_mitre_mapping": 0.013,
+      "modul4_llm_summarization": 338.617,
+      "modul5_finalisasi": 0.02,
+      "evaluator": 0.064
+    },
+    "mode": "post-detection",
+    "llm_skipped": false,
+    "eval_skipped": false,
+    "steps_executed": [
+      "Substitusi IP",
+      "Modul 2: AbuseIPDB Enrichment",
+      "Modul 3: MITRE ATT&CK Mapping",
+      "Modul 4: LLM Summarization",
+      "Modul 5: Finalisasi Output",
+      "Evaluator: M1-1 s.d. M1-4"
+    ]
+  }
+}

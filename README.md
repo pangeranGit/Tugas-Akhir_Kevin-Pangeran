@@ -84,3 +84,29 @@ Hasil evaluasi (eksekusi penuh 14 Juli 2026)
 - M-2 (AI Summary Fidelity): **3,0000** (skala 1–3)
 - Pipeline Coverage: **47/47** alert terproses end-to-end
 - Total durasi: **395,07 s** (Modul 4/LLM: 85,7% dari total)
+
+## Artefak Keterulangan
+
+Tiga eksekusi penuh yang dilaporkan pada naskah tersedia pada `artefak/`:
+
+| Folder | Tanggal eksekusi | M-1 | M-2 | Pipeline Coverage |
+|---|---|---|---|---|
+| `run_20260714_pertama/` | 14 Juli 2026 | 100% | 3,0000 | 47/47 |
+| `run_20260720_utama/`   | 20 Juli 2026 | 100% | 2,9929 | 47/47 |
+| `run_20260721_ketiga/`  | 21 Juli 2026 | 100% | 2,9078 | 45/47 |
+
+Eksekusi ketiga tidak memenuhi kondisi validitas Pipeline Coverage sehingga nilai
+M-2-nya tidak diperbandingkan pada evaluasi mutu, tetapi tetap dilaporkan pada
+tingkat keandalan end-to-end.
+
+Angka performa pada naskah bersumber dari `run_20260714_pertama/pipeline_run_metadata.json`,
+satu-satunya eksekusi yang diaktifkan instrumentasi waktunya.
+
+Berkas `c2_alerts_raw.json` (56 MB, 440.581 alert mentah) tidak diunggah karena
+ukurannya; checksum SHA-256-nya tercatat pada `artefak/checksum/artefak_sha256.txt`.
+
+Catatan: label `"Evaluator: M1-1 s.d. M1-4"` pada `pipeline_run_metadata.json`
+merupakan teks log lama yang tertinggal pada orkestrator. Kerangka evaluasi yang
+benar-benar dijalankan adalah kerangka final, sebagaimana terlihat pada kunci
+keluaran `m1_coverage`, `m2_fidelity`, dan `validity_coverage` di
+`evaluation_results.json` serta pada `src/evaluator.py`.

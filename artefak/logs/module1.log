@@ -1,0 +1,42 @@
+2026-07-20 15:38:46,447 [INFO] Memulai query alert C2 (filter=strict)
+2026-07-20 15:38:46,447 [INFO] OpenSearch: https://localhost:9200
+2026-07-20 15:38:47,400 [INFO] Total alert C2 ditemukan: 64,199
+2026-07-20 15:38:48,104 [INFO]   Progress: 10,000/64,199 (15.6%)
+2026-07-20 15:38:49,039 [INFO]   Progress: 20,000/64,199 (31.2%)
+2026-07-20 15:38:50,311 [INFO]   Progress: 30,000/64,199 (46.7%)
+2026-07-20 15:38:52,216 [INFO]   Progress: 40,000/64,199 (62.3%)
+2026-07-20 15:38:53,727 [INFO]   Progress: 50,000/64,199 (77.9%)
+2026-07-20 15:38:55,067 [INFO]   Progress: 60,000/64,199 (93.5%)
+2026-07-20 15:38:56,812 [INFO] Total alert diambil: 64,199
+2026-07-20 15:38:56,867 [INFO] Deduplikasi: 64,199 -> 47 alert unik
+2026-07-20 15:38:59,871 [INFO] Alert disimpan ke: /home/kali/ta-pipeline/output/c2_alerts_raw.json
+2026-07-20 15:38:59,874 [INFO] Alert disimpan ke: /home/kali/ta-pipeline/output/c2_alerts_deduped.json
+2026-07-20 15:38:59,875 [INFO] Summary disimpan ke: /home/kali/ta-pipeline/output/module1_summary.json
+2026-07-21 13:12:26,966 [INFO] Memulai query alert C2 (filter=strict)
+2026-07-21 13:12:26,967 [INFO] OpenSearch: https://localhost:9200
+2026-07-21 13:12:29,093 [INFO] Total alert C2 ditemukan: 64,199
+2026-07-21 13:12:30,542 [INFO]   Progress: 10,000/64,199 (15.6%)
+2026-07-21 13:12:32,966 [INFO]   Progress: 20,000/64,199 (31.2%)
+2026-07-21 13:12:34,532 [INFO]   Progress: 30,000/64,199 (46.7%)
+2026-07-21 13:12:36,590 [INFO]   Progress: 40,000/64,199 (62.3%)
+2026-07-21 13:12:38,140 [INFO]   Progress: 50,000/64,199 (77.9%)
+2026-07-21 13:12:39,402 [INFO]   Progress: 60,000/64,199 (93.5%)
+2026-07-21 13:12:40,192 [INFO] Total alert diambil: 64,199
+2026-07-21 13:12:40,241 [INFO] Deduplikasi: 64,199 -> 47 alert unik
+2026-07-21 13:12:43,830 [INFO] Alert disimpan ke: /home/kali/ta-pipeline/output/c2_alerts_raw.json
+2026-07-21 13:12:43,834 [INFO] Alert disimpan ke: /home/kali/ta-pipeline/output/c2_alerts_deduped.json
+2026-07-21 13:12:43,835 [INFO] Summary disimpan ke: /home/kali/ta-pipeline/output/module1_summary.json
+2026-07-23 11:07:09,071 [INFO] Memulai query alert C2 (filter=strict)
+2026-07-23 11:07:09,071 [INFO] OpenSearch: https://localhost:9200
+2026-07-23 11:07:10,194 [INFO] Total alert C2 ditemukan: 64,199
+2026-07-23 11:07:11,012 [INFO]   Progress: 10,000/64,199 (15.6%)
+2026-07-23 11:07:12,162 [INFO]   Progress: 20,000/64,199 (31.2%)
+2026-07-23 11:07:13,260 [INFO]   Progress: 30,000/64,199 (46.7%)
+2026-07-23 11:07:14,637 [INFO]   Progress: 40,000/64,199 (62.3%)
+2026-07-23 11:07:16,008 [INFO]   Progress: 50,000/64,199 (77.9%)
+2026-07-23 11:07:17,484 [INFO]   Progress: 60,000/64,199 (93.5%)
+2026-07-23 11:07:18,805 [INFO] Total alert diambil: 64,199
+2026-07-23 11:07:18,850 [INFO] Deduplikasi: 64,199 -> 47 alert unik
+2026-07-23 11:07:21,772 [INFO] Alert disimpan ke: /home/kali/ta-pipeline/output/c2_alerts_raw.json
+2026-07-23 11:07:21,774 [INFO] Alert disimpan ke: /home/kali/ta-pipeline/output/c2_alerts_deduped.json
+2026-07-23 11:07:21,774 [INFO] Summary disimpan ke: /home/kali/ta-pipeline/output/module1_summary.json

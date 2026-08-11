@@ -1,0 +1,851 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-29T10:44:31.087457",
+    "total_mappings": 26,
+    "successful_matches": 26,
+    "needs_manual_review": 0,
+    "api_calls_used": 130
+  },
+  "mappings": [
+    {
+      "old_ip": "103.249.87.72",
+      "new_ip": "103.249.84.242",
+      "old_profile": {
+        "malware_families": [
+          "PoisonIvy"
+        ],
+        "country_code": "MY",
+        "country_name": "Malaysia",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Hosting Services",
+        "old_abuse_score": 0
+      },
+      "new_profile": {
+        "abuse_score": 100,
+        "total_reports": 4882,
+        "country_code": "MY",
+        "country_name": "Malaysia",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Hosting Services",
+        "domain": "invision7.com",
+        "is_tor": false,
+        "last_reported_at": "2026-05-29T03:38:48+00:00"
+      },
+      "match_score": 100.0,
+      "match_reasons": [
+        "country match (MY)",
+        "usage match (Data Center/Web Hosting/Transi)",
+        "ISP overlap: hosting,services"
+      ],
+      "verification_url": "https://www.abuseipdb.com/check/103.249.84.242",
+      "needs_manual_review": false
+    },
+    {
+      "old_ip": "103.4.18.170",
+      "new_ip": "223.27.18.80",
+      "old_profile": {
+        "malware_families": [
+          "Emotet",
+          "Geodo"
+        ],
+        "country_code": "AU",
+        "country_name": "Australia",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Fluccs Australia",
+        "old_abuse_score": 0
+      },
+      "new_profile": {
+        "abuse_score": 100,
+        "total_reports": 703,
+        "country_code": "AU",
+        "country_name": "Australia",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Hostopia Australia Web Pty Ltd",
+        "domain": "newfold.com",
+        "is_tor": false,
+        "last_reported_at": "2026-05-29T03:35:43+00:00"
+      },
+      "match_score": 100.0,
+      "match_reasons": [
+        "country match (AU)",
+        "usage match (Data Center/Web Hosting/Transi)",
+        "ISP overlap: australia"
+      ],
+      "verification_url": "https://www.abuseipdb.com/check/223.27.18.80",
+      "needs_manual_review": false
+    },
+    {
+      "old_ip": "109.169.66.107",
+      "new_ip": "139.59.184.99",
+      "old_profile": {
+        "malware_families": [
+          "Emotet",
+          "Geodo"
+        ],
+        "country_code": "GB",
+        "country_name": "United Kingdom of Great Britain and Northern Ireland",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Rapidswitch",
+        "old_abuse_score": 0
+      },
+      "new_profile": {
+        "abuse_score": 100,
+        "total_reports": 289,
+        "country_code": "GB",
+        "country_name": "United Kingdom of Great Britain and Northern Ireland",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "DigitalOcean, LLC",
+        "domain": "digitalocean.com",
+        "is_tor": false,
+        "last_reported_at": "2026-05-29T03:00:04+00:00"
+      },
+      "match_score": 80.0,
+      "match_reasons": [
+        "country match (GB)",
+        "usage match (Data Center/Web Hosting/Transi)"
+      ],
+      "verification_url": "https://www.abuseipdb.com/check/139.59.184.99",
+      "needs_manual_review": false
+    },
+    {
+      "old_ip": "139.59.33.202",
+      "new_ip": "20.244.18.126",
+      "old_profile": {
+        "malware_families": [
+          "Emotet",
+          "Geodo"
+        ],
+        "country_code": "IN",
+        "country_name": "India",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "DigitalOcean, LLC",
+        "old_abuse_score": 0
+      },
+      "new_profile": {
+        "abuse_score": 100,
+        "total_reports": 6749,
+        "country_code": "IN",
+        "country_name": "India",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Microsoft Corporation",
+        "domain": "microsoft.com",
+        "is_tor": false,
+        "last_reported_at": "2026-05-29T03:31:35+00:00"
+      },
+      "match_score": 80.0,
+      "match_reasons": [
+        "country match (IN)",
+        "usage match (Data Center/Web Hosting/Transi)"
+      ],
+      "verification_url": "https://www.abuseipdb.com/check/20.244.18.126",
+      "needs_manual_review": false
+    },
+    {
+      "old_ip": "163.172.81.35",
+      "new_ip": "62.210.89.150",
+      "old_profile": {
+        "malware_families": [
+          "Emotet",
+          "Geodo"
+        ],
+        "country_code": "FR",
+        "country_name": "France",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Scaleway Dedibox - Paris, France",
+        "old_abuse_score": 0
+      },
+      "new_profile": {
+        "abuse_score": 100,
+        "total_reports": 309,
+        "country_code": "FR",
+        "country_name": "France",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Scaleway Dedibox",
+        "domain": "scaleway.com",
+        "is_tor": false,
+        "last_reported_at": "2026-05-29T01:57:35+00:00"
+      },
+      "match_score": 100.0,
+      "match_reasons": [
+        "country match (FR)",
+        "usage match (Data Center/Web Hosting/Transi)",
+        "ISP overlap: dedibox,scaleway"
+      ],
+      "verification_url": "https://www.abuseipdb.com/check/62.210.89.150",
+      "needs_manual_review": false
+    },
+    {
+      "old_ip": "178.79.172.45",
+      "new_ip": "45.147.249.81",
+      "old_profile": {
+        "malware_families": [
+          "Emotet",
+          "Geodo"
+        ],
+        "country_code": "GB",
+        "country_name": "United Kingdom of Great Britain and Northern Ireland",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Linode, LLC",
+        "old_abuse_score": 0
+      },
+      "new_profile": {
+        "abuse_score": 100,
+        "total_reports": 1803,
+        "country_code": "GB",
+        "country_name": "United Kingdom of Great Britain and Northern Ireland",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Kamatera Inc",
+        "domain": "kamatera.com",
+        "is_tor": false,
+        "last_reported_at": "2026-05-29T03:39:06+00:00"
+      },
+      "match_score": 80.0,
+      "match_reasons": [
+        "country match (GB)",
+        "usage match (Data Center/Web Hosting/Transi)"
+      ],
+      "verification_url": "https://www.abuseipdb.com/check/45.147.249.81",
+      "needs_manual_review": false
+    },
+    {
+      "old_ip": "185.239.226.65",
+      "new_ip": "101.36.111.155",
+      "old_profile": {
+        "malware_families": [],
+        "country_code": "HK",
+        "country_name": "Hong Kong",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "HONGKONG WEN JING NETWORK LIMITED",
+        "old_abuse_score": 0
+      },
+      "new_profile": {
+        "abuse_score": 100,
+        "total_reports": 139,
+        "country_code": "HK",
+        "country_name": "Hong Kong",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED",
+        "domain": "ucloud.cn",
+        "is_tor": false,
+        "last_reported_at": "2026-05-29T02:31:23+00:00"
+      },
+      "match_score": 100.0,
+      "match_reasons": [
+        "country match (HK)",
+        "usage match (Data Center/Web Hosting/Transi)",
+        "ISP overlap: limited"
+      ],
+      "verification_url": "https://www.abuseipdb.com/check/101.36.111.155",
+      "needs_manual_review": false
+    },
+    {
+      "old_ip": "185.66.41.19",
+      "new_ip": "85.121.215.243",
+      "old_profile": {
+        "malware_families": [],
+        "country_code": "ES",
+        "country_name": "Spain",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "10dencehispahard, S.L.",
+        "old_abuse_score": 0
+      },
+      "new_profile": {
+        "abuse_score": 100,
+        "total_reports": 56,
+        "country_code": "ES",
+        "country_name": "Spain",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Urban Network Solutions SRL",
+        "domain": "urbannetworksolutions.nl",
+        "is_tor": false,
+        "last_reported_at": "2026-05-28T20:45:15+00:00"
+      },
+      "match_score": 80.0,
+      "match_reasons": [
+        "country match (ES)",
+        "usage match (Data Center/Web Hosting/Transi)"
+      ],
+      "verification_url": "https://www.abuseipdb.com/check/85.121.215.243",
+      "needs_manual_review": false
+    },
+    {
+      "old_ip": "186.145.214.199",
+      "new_ip": "152.200.181.42",
+      "old_profile": {
+        "malware_families": [
+          "Bladabindi",
+          "njrat"
+        ],
+        "country_code": "CO",
+        "country_name": "Colombia",
+        "usage_type": "Fixed Line ISP",
+        "isp": "Telmex Colombia S.A.",
+        "old_abuse_score": 0
+      },
+      "new_profile": {
+        "abuse_score": 100,
+        "total_reports": 3758,
+        "country_code": "CO",
+        "country_name": "Colombia",
+        "usage_type": "Fixed Line ISP",
+        "isp": "COLOMBIA TELECOMUNICACIONES S.A. ESP",
+        "domain": "telefonica.co",
+        "is_tor": false,
+        "last_reported_at": "2026-05-29T03:13:17+00:00"
+      },
+      "match_score": 100.0,
+      "match_reasons": [
+        "country match (CO)",
+        "usage match (Fixed Line ISP)",
+        "ISP overlap: colombia,s.a."
+      ],
+      "verification_url": "https://www.abuseipdb.com/check/152.200.181.42",
+      "needs_manual_review": false
+    },
+    {
+      "old_ip": "192.155.83.86",
+      "new_ip": "65.49.1.138",
+      "old_profile": {
+        "malware_families": [
+          "Emotet",
+          "Geodo"
+        ],
+        "country_code": "US",
+        "country_name": "United States of America",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Linode",
+        "old_abuse_score": 0
+      },
+      "new_profile": {
+        "abuse_score": 100,
+        "total_reports": 2066,
+        "country_code": "US",
+        "country_name": "United States of America",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "The Shadowserver Foundation, Inc.",
+        "domain": "shadowserver.org",
+        "is_tor": false,
+        "last_reported_at": "2026-05-29T03:04:18+00:00"
+      },
+      "match_score": 80.0,
+      "match_reasons": [
+        "country match (US)",
+        "usage match (Data Center/Web Hosting/Transi)"
+      ],
+      "verification_url": "https://www.abuseipdb.com/check/65.49.1.138",
+      "needs_manual_review": false
+    },
+    {
+      "old_ip": "204.11.56.48",
+      "new_ip": "198.46.182.206",
+      "old_profile": {
+        "malware_families": [],
+        "country_code": "US",
+        "country_name": "United States of America",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Confluence Networks Inc",
+        "old_abuse_score": 0
+      },
+      "new_profile": {
+        "abuse_score": 100,
+        "total_reports": 602,
+        "country_code": "US",
+        "country_name": "United States of America",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "HostPapa",
+        "domain": "hostpapa.com",
+        "is_tor": false,
+        "last_reported_at": "2026-05-29T01:17:01+00:00"
+      },
+      "match_score": 80.0,
+      "match_reasons": [
+        "country match (US)",
+        "usage match (Data Center/Web Hosting/Transi)"
+      ],
+      "verification_url": "https://www.abuseipdb.com/check/198.46.182.206",
+      "needs_manual_review": false
+    },
+    {
+      "old_ip": "204.95.99.221",
+      "new_ip": "65.49.139.223",
+      "old_profile": {
+        "malware_families": [
+          "Ramnit"
+        ],
+        "country_code": "US",
+        "country_name": "United States of America",
+        "usage_type": "Fixed Line ISP",
+        "isp": "Microsoft Corporation",
+        "old_abuse_score": 0
+      },
+      "new_profile": {
+        "abuse_score": 100,
+        "total_reports": 515,
+        "country_code": "US",
+        "country_name": "United States of America",
+        "usage_type": "Fixed Line ISP",
+        "isp": "Ziply Fiber",
+        "domain": "ziplyfiber.com",
+        "is_tor": false,
+        "last_reported_at": "2026-05-29T03:19:24+00:00"
+      },
+      "match_score": 80.0,
+      "match_reasons": [
+        "country match (US)",
+        "usage match (Fixed Line ISP)"
+      ],
+      "verification_url": "https://www.abuseipdb.com/check/65.49.139.223",
+      "needs_manual_review": false
+    },
+    {
+      "old_ip": "208.97.148.181",
+      "new_ip": "174.35.25.181",
+      "old_profile": {
+        "malware_families": [],
+        "country_code": "US",
+        "country_name": "United States of America",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "DreamHost",
+        "old_abuse_score": 0
+      },
+      "new_profile": {
+        "abuse_score": 100,
+        "total_reports": 550,
+        "country_code": "US",
+        "country_name": "United States of America",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "CDNetworks Inc.",
+        "domain": "cdnetworks.com",
+        "is_tor": false,
+        "last_reported_at": "2026-05-29T01:58:05+00:00"
+      },
+      "match_score": 80.0,
+      "match_reasons": [
+        "country match (US)",
+        "usage match (Data Center/Web Hosting/Transi)"
+      ],
+      "verification_url": "https://www.abuseipdb.com/check/174.35.25.181",
+      "needs_manual_review": false
+    },
+    {
+      "old_ip": "3.223.115.185",
+      "new_ip": "50.116.72.133",
+      "old_profile": {
+        "malware_families": [],
+        "country_code": "US",
+        "country_name": "United States of America",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Amazon Data Services Northern Virginia",
+        "old_abuse_score": 0
+      },
+      "new_profile": {
+        "abuse_score": 100,
+        "total_reports": 1531,
+        "country_code": "US",
+        "country_name": "United States of America",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Network Solutions, LLC",
+        "domain": "networksolutions.com",
+        "is_tor": false,
+        "last_reported_at": "2026-05-29T03:41:40+00:00"
+      },
+      "match_score": 80.0,
+      "match_reasons": [
+        "country match (US)",
+        "usage match (Data Center/Web Hosting/Transi)"
+      ],
+      "verification_url": "https://www.abuseipdb.com/check/50.116.72.133",
+      "needs_manual_review": false
+    },
+    {
+      "old_ip": "45.79.186.178",
+      "new_ip": "184.105.247.242",
+      "old_profile": {
+        "malware_families": [
+          "Emotet",
+          "Geodo"
+        ],
+        "country_code": "US",
+        "country_name": "United States of America",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Linode",
+        "old_abuse_score": 0
+      },
+      "new_profile": {
+        "abuse_score": 100,
+        "total_reports": 1717,
+        "country_code": "US",
+        "country_name": "United States of America",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "The Shadowserver Foundation, Inc.",
+        "domain": "shadowserver.org",
+        "is_tor": false,
+        "last_reported_at": "2026-05-29T03:04:23+00:00"
+      },
+      "match_score": 80.0,
+      "match_reasons": [
+        "country match (US)",
+        "usage match (Data Center/Web Hosting/Transi)"
+      ],
+      "verification_url": "https://www.abuseipdb.com/check/184.105.247.242",
+      "needs_manual_review": false
+    },
+    {
+      "old_ip": "46.163.78.94",
+      "new_ip": "173.249.52.138",
+      "old_profile": {
+        "malware_families": [
+          "Emotet",
+          "Geodo"
+        ],
+        "country_code": "FR",
+        "country_name": "France",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Host Europe GmbH",
+        "old_abuse_score": 0
+      },
+      "new_profile": {
+        "abuse_score": 100,
+        "total_reports": 5825,
+        "country_code": "FR",
+        "country_name": "France",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Contabo GmbH",
+        "domain": "contabo.com",
+        "is_tor": false,
+        "last_reported_at": "2026-05-29T03:24:24+00:00"
+      },
+      "match_score": 100.0,
+      "match_reasons": [
+        "country match (FR)",
+        "usage match (Data Center/Web Hosting/Transi)",
+        "ISP overlap: gmbh"
+      ],
+      "verification_url": "https://www.abuseipdb.com/check/173.249.52.138",
+      "needs_manual_review": false
+    },
+    {
+      "old_ip": "62.75.145.252",
+      "new_ip": "152.53.191.128",
+      "old_profile": {
+        "malware_families": [
+          "Emotet",
+          "Geodo"
+        ],
+        "country_code": "DE",
+        "country_name": "Germany",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Host Europe GmbH",
+        "old_abuse_score": 0
+      },
+      "new_profile": {
+        "abuse_score": 100,
+        "total_reports": 2695,
+        "country_code": "DE",
+        "country_name": "Germany",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Anexia Holding GmbH",
+        "domain": "netcup.de",
+        "is_tor": false,
+        "last_reported_at": "2026-05-29T03:24:30+00:00"
+      },
+      "match_score": 100.0,
+      "match_reasons": [
+        "country match (DE)",
+        "usage match (Data Center/Web Hosting/Transi)",
+        "ISP overlap: gmbh"
+      ],
+      "verification_url": "https://www.abuseipdb.com/check/152.53.191.128",
+      "needs_manual_review": false
+    },
+    {
+      "old_ip": "66.175.215.16",
+      "new_ip": "207.244.250.66",
+      "old_profile": {
+        "malware_families": [
+          "Emotet",
+          "Geodo"
+        ],
+        "country_code": "US",
+        "country_name": "United States of America",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Linode",
+        "old_abuse_score": 0
+      },
+      "new_profile": {
+        "abuse_score": 100,
+        "total_reports": 52,
+        "country_code": "US",
+        "country_name": "United States of America",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Contabo Inc.",
+        "domain": "contabo.com",
+        "is_tor": false,
+        "last_reported_at": "2026-05-29T03:28:02+00:00"
+      },
+      "match_score": 80.0,
+      "match_reasons": [
+        "country match (US)",
+        "usage match (Data Center/Web Hosting/Transi)"
+      ],
+      "verification_url": "https://www.abuseipdb.com/check/207.244.250.66",
+      "needs_manual_review": false
+    },
+    {
+      "old_ip": "81.88.24.211",
+      "new_ip": "185.68.184.46",
+      "old_profile": {
+        "malware_families": [
+          "Emotet",
+          "Geodo"
+        ],
+        "country_code": "DE",
+        "country_name": "Germany",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "dogado GmbH",
+        "old_abuse_score": 0
+      },
+      "new_profile": {
+        "abuse_score": 100,
+        "total_reports": 139,
+        "country_code": "DE",
+        "country_name": "Germany",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Baykov Ilya Sergeevich",
+        "domain": "hip-hosting.com",
+        "is_tor": false,
+        "last_reported_at": "2026-05-29T03:35:53+00:00"
+      },
+      "match_score": 80.0,
+      "match_reasons": [
+        "country match (DE)",
+        "usage match (Data Center/Web Hosting/Transi)"
+      ],
+      "verification_url": "https://www.abuseipdb.com/check/185.68.184.46",
+      "needs_manual_review": false
+    },
+    {
+      "old_ip": "82.165.142.107",
+      "new_ip": "172.110.219.251",
+      "old_profile": {
+        "malware_families": [
+          "Emotet",
+          "Geodo"
+        ],
+        "country_code": "ES",
+        "country_name": "Spain",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "IONOS SE",
+        "old_abuse_score": 0
+      },
+      "new_profile": {
+        "abuse_score": 100,
+        "total_reports": 813,
+        "country_code": "ES",
+        "country_name": "Spain",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "IPv4 Superhub Limited",
+        "domain": "ipv4superhub.com",
+        "is_tor": false,
+        "last_reported_at": "2026-05-29T03:38:39+00:00"
+      },
+      "match_score": 80.0,
+      "match_reasons": [
+        "country match (ES)",
+        "usage match (Data Center/Web Hosting/Transi)"
+      ],
+      "verification_url": "https://www.abuseipdb.com/check/172.110.219.251",
+      "needs_manual_review": false
+    },
+    {
+      "old_ip": "82.223.110.35",
+      "new_ip": "34.175.118.185",
+      "old_profile": {
+        "malware_families": [],
+        "country_code": "ES",
+        "country_name": "Spain",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "arsys.es",
+        "old_abuse_score": 0
+      },
+      "new_profile": {
+        "abuse_score": 100,
+        "total_reports": 5721,
+        "country_code": "ES",
+        "country_name": "Spain",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Google LLC",
+        "domain": "google.com",
+        "is_tor": false,
+        "last_reported_at": "2026-05-29T03:41:32+00:00"
+      },
+      "match_score": 80.0,
+      "match_reasons": [
+        "country match (ES)",
+        "usage match (Data Center/Web Hosting/Transi)"
+      ],
+      "verification_url": "https://www.abuseipdb.com/check/34.175.118.185",
+      "needs_manual_review": false
+    },
+    {
+      "old_ip": "84.124.52.38",
+      "new_ip": "5.182.83.231",
+      "old_profile": {
+        "malware_families": [],
+        "country_code": "ES",
+        "country_name": "Spain",
+        "usage_type": "Fixed Line ISP",
+        "isp": "VODAFONE ONO, S.A.",
+        "old_abuse_score": 0
+      },
+      "new_profile": {
+        "abuse_score": 100,
+        "total_reports": 16725,
+        "country_code": "ES",
+        "country_name": "Spain",
+        "usage_type": "Fixed Line ISP",
+        "isp": "AVATEL TELECOM, SA",
+        "domain": "avatel.es",
+        "is_tor": false,
+        "last_reported_at": "2026-05-29T03:42:51+00:00"
+      },
+      "match_score": 80.0,
+      "match_reasons": [
+        "country match (ES)",
+        "usage match (Fixed Line ISP)"
+      ],
+      "verification_url": "https://www.abuseipdb.com/check/5.182.83.231",
+      "needs_manual_review": false
+    },
+    {
+      "old_ip": "85.25.119.91",
+      "new_ip": "213.199.52.47",
+      "old_profile": {
+        "malware_families": [
+          "Emotet",
+          "Geodo"
+        ],
+        "country_code": "FR",
+        "country_name": "France",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "BSB-SERVICE Dedicated Server Hosting",
+        "old_abuse_score": 0
+      },
+      "new_profile": {
+        "abuse_score": 100,
+        "total_reports": 101,
+        "country_code": "FR",
+        "country_name": "France",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Contabo GmbH",
+        "domain": "contabo.com",
+        "is_tor": false,
+        "last_reported_at": "2026-05-29T03:27:58+00:00"
+      },
+      "match_score": 80.0,
+      "match_reasons": [
+        "country match (FR)",
+        "usage match (Data Center/Web Hosting/Transi)"
+      ],
+      "verification_url": "https://www.abuseipdb.com/check/213.199.52.47",
+      "needs_manual_review": false
+    },
+    {
+      "old_ip": "87.106.77.193",
+      "new_ip": "176.65.132.149",
+      "old_profile": {
+        "malware_families": [
+          "Emotet",
+          "Geodo"
+        ],
+        "country_code": "DE",
+        "country_name": "Germany",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "IONOS SE",
+        "old_abuse_score": 0
+      },
+      "new_profile": {
+        "abuse_score": 100,
+        "total_reports": 1273,
+        "country_code": "DE",
+        "country_name": "Germany",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "VMHeaven.io",
+        "domain": "vmheaven.io",
+        "is_tor": false,
+        "last_reported_at": "2026-05-29T03:31:36+00:00"
+      },
+      "match_score": 80.0,
+      "match_reasons": [
+        "country match (DE)",
+        "usage match (Data Center/Web Hosting/Transi)"
+      ],
+      "verification_url": "https://www.abuseipdb.com/check/176.65.132.149",
+      "needs_manual_review": false
+    },
+    {
+      "old_ip": "91.220.62.30",
+      "new_ip": "45.148.10.147",
+      "old_profile": {
+        "malware_families": [
+          "Ramnit"
+        ],
+        "country_code": "NL",
+        "country_name": "Netherlands",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Noisypeak Sarl",
+        "old_abuse_score": 0
+      },
+      "new_profile": {
+        "abuse_score": 100,
+        "total_reports": 195180,
+        "country_code": "NL",
+        "country_name": "Netherlands",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "TECHOFF SRV LIMITED",
+        "domain": "dmzhost.co",
+        "is_tor": false,
+        "last_reported_at": "2026-05-29T03:43:12+00:00"
+      },
+      "match_score": 80.0,
+      "match_reasons": [
+        "country match (NL)",
+        "usage match (Data Center/Web Hosting/Transi)"
+      ],
+      "verification_url": "https://www.abuseipdb.com/check/45.148.10.147",
+      "needs_manual_review": false
+    },
+    {
+      "old_ip": "95.110.231.207",
+      "new_ip": "136.248.242.166",
+      "old_profile": {
+        "malware_families": [
+          "Emotet",
+          "Geodo"
+        ],
+        "country_code": "IT",
+        "country_name": "Italy",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Aruba S.p.A. - Dedicated servers",
+        "old_abuse_score": 0
+      },
+      "new_profile": {
+        "abuse_score": 100,
+        "total_reports": 1226,
+        "country_code": "CL",
+        "country_name": "Chile",
+        "usage_type": "Data Center/Web Hosting/Transit",
+        "isp": "Oracle Corporation",
+        "domain": "oracle.com",
+        "is_tor": false,
+        "last_reported_at": "2026-05-29T03:21:46+00:00"
+      },
+      "match_score": 50.0,
+      "match_reasons": [
+        "usage match (Data Center/Web Hosting/Transi)"
+      ],
+      "verification_url": "https://www.abuseipdb.com/check/136.248.242.166",
+      "needs_manual_review": false
+    }
+  ]
+}
