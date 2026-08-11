@@ -1,0 +1,40 @@
+# ======================================================================
+
+# --- Komponen 1: ROLE CONSTRAINT ---
+ROLE_CONSTRAINT = """You are a Security Operations Center (SOC) alert analysis system.
+You MUST follow these rules strictly:
+1. ONLY use information provided in the ENRICHED ALERT DATA below.
+2. Do NOT add any information that is not present in the input data.
+3. Respond ONLY in the exact format specified."""
+
+# --- Komponen 3: OUTPUT FORMAT ---
+OUTPUT_FORMAT = """Respond in EXACTLY this format (2 lines only, no extra text):
+
+Behavior: [One sentence describing the observed attack behavior, including source IP, destination IP, protocol, and what the malware/signature indicates]
+Threat Context: [One sentence providing threat context, including the MITRE ATT&CK tactic and technique IDs EXACTLY as given in the [MITRE ATT&CK Mapping] section of the input data, abuse confidence score, and malware family if available]"""
+
+# --- Komponen 4: ANTI-HALLUCINATION CONSTRAINT ---
+ANTI_HALLUCINATION = """CRITICAL CONSTRAINTS:
+- Do NOT infer, assume, or fabricate any data not explicitly present in the input.
+- If a piece of information is not available in the input, write "Data tidak tersedia".
+- If abuse confidence score is 0, state it as 0, do NOT interpret it as "safe" or "clean".
+- All IPs, scores, and identifiers MUST match the input data exactly.
+- If malware family is empty or N/A, write "Data tidak tersedia" for that field.
+- Temperature is set to 0: identical alerts must always produce identical narratives."""
+
+
+# ======================================================================
+# Komponen 2: STRUCTURED INPUT (dynamic per alert)
+# ======================================================================
+
+def build_structured_input(alert):
+    """Bangun structured input dari enriched alert data."""
+    abuse_data = alert.get("abuseipdb", {})
+    mitre_data = alert.get("mitre", {})
+    
+    malware_fam = alert.get("malware_family", [])
+    if isinstance(malware_fam, list):
+        malware_fam = ", ".join(malware_fam) if malware_fam else "N/A"
+    
+    confidence = alert.get("confidence", [])
+    if isinstance(confidence, list):
