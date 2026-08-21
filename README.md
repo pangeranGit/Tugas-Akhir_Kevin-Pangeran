@@ -1,7 +1,4 @@
-Tugas Akhir — Pipeline Enrichment dan AI-Assisted Summarization untuk Deteksi Command and Control
-
-Kevin Pangeran Enrico — NPM 2221101801  
-Program Studi Rekayasa Keamanan Siber, Politeknik Siber dan Sandi Negara
+Tugas Akhir — Kevin Pangeran Enrico 
 
 Implementasi pipeline enrichment dan AI-assisted summarization dalam mendukung deteksi Command and Control (C2) berbasis Wazuh dan Suricata, menggunakan dataset EarlyCrowAPT (45 file PCAP).
 
